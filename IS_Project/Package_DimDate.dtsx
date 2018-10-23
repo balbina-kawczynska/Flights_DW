@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimDate"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{F0D03B39-38CD-488E-BB14-9CA2ED627146}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{3CEDEE8A-4CD8-4C02-A0ED-70FA2BE62F2F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -31,7 +31,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FA0E0EFD-2792-447E-92FC-032801FB0595}"
-          SQLTask:SqlStatementSource="EXEC DimDatePopulate" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="EXEC [DimDatePopulate];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
