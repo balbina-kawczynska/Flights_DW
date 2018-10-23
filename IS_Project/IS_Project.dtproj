@@ -26,11 +26,15 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-VSOL9E4</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP0LbjdxeYkaLF1WX0MjT4AAAAAACAAAAAAAQZgAAAAEAACAAAABP6QJgHgxqsIi9nwfnWlw/f18R5qEce6ZuBYuI+n9Z7wAAAAAOgAAAAAIAACAAAABPYOL6TZ2obvzIBupcTxZ8gqjpyee7fY4wLJ+9smg9SZAAAACwFjfm+fsM+R4+zOi4w4LBAVKi16WWXu0Z9/91hqy7eVtSqDeZh35mKAq6Tzz8AiBMolI/MnO9O85yt8xxIXtTPV/jaz9MytuXCNd/ifgwiC0oTbBbQ/h4O/+j/zV1ImoxAQMH+BjYgmYyQYgDQwUpaXEQg0exaKg0At6rymcVYAE+NASJpsw+GRPTR5jnHvlAAAAAPF+cDfQuXgPEhrnzcg7NOh/QgU3s2VFAWZ9bz+5XGy1/p6S+RTGUgC5yhW3/iNHk6fQm2z2qpA3bOgPiiSnmSw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP0LbjdxeYkaLF1WX0MjT4AAAAAACAAAAAAAQZgAAAAEAACAAAADJWYoJFB+GxiOh/nPJOBGX+f7I7fS1rEhmv1jIsv8nXgAAAAAOgAAAAAIAACAAAAC3Yp20d/vqOFPoOX3htJ26T4jxbjySJt62bECU/qNOe5AAAADADo/WDefSexpSYjKsbKkneooF8nK3e4GLdLIn9JqgDvDuKaurJw0IQFk8Elwru/U6I2BOLbkEtbF+xlYPLoo2uLkrTAgNPkQLj2cFY6Oc1ZH+pwrzwZec4md+diV5z5kshXHe7uYSkLGvb/9PLHjhGu+wxSvBA9Ahz8htv6rvVeZZ1G6e8gqS633mK1Yg3cZAAAAA1sJyRngWn79SEJuXp1ngrt/Y0XpxpAtBRC+m+wUCC8NbI7LOSJsfnvbgOkherNGEiC2AyYSBywzKphFUaOmBUw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Master.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package_DimAirport.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package_DimCarrier.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package_DimPlane.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package_DimDate.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="DBconnect.conmgr" />
@@ -275,6 +279,8 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">
+                </SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -455,6 +461,8 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">
+                </SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -635,6 +643,8 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">
+                </SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -670,16 +680,84 @@
             </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Master.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{8CF12ADA-57D1-40AD-B84F-745D1BD6F058}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{FA1FF889-89F7-4FA6-8619-2CC34034183D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Master</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{74BB7595-EA6E-4004-AF2C-97ABB525673C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{73200339-A010-4281-958C-65CA5E41E095}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Package_DimAirport.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{9DCDF7CC-686A-48CC-A98F-6E64BDB60FE5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package_DimAirport</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{3B336F1E-1A2A-4A88-BA0B-D56CF022EAEB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Package_DimCarrier.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{220657EB-087D-4225-BFCD-E3591ED200D6}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package_DimCarrier</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6F96ED06-FD16-401D-972F-D83847C73606}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Package_DimPlane.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{41283C84-53F4-4AF2-8A2A-574BD49742F9}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package_DimPlane</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{42472937-F72F-4413-BB95-58B991CBA09C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Package_DimDate.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{077DE17F-B8A9-4FDC-9F0E-4F34A82452F5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package_DimDate</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{573E3ACE-9C58-4B27-9CD5-1EAD757E26CE}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
