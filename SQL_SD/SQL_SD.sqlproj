@@ -69,6 +69,9 @@
     <Build Include="dbo\Tables\DimAirport.sql" />
     <Build Include="dbo\Tables\FactFlights.sql" />
     <Build Include="dbo\Tables\DimPlane.sql" />
-    <Build Include="dbo\Stored Procedures\DimDatePopulate.sql" />
+    <Build Include="dbo\Stored Procedures\DimAirport_InsertUnknown.sql" />
+    <Build Include="dbo\Stored Procedures\DimDate_Populate.sql" />
+    <Build Include="dbo\Stored Procedures\DimPlane_InsertUnknown.sql" />
+    <Build Include="dbo\Stored Procedures\DimCarrier_InsertUnknown.sql" />
   </ItemGroup>
 </Project>
