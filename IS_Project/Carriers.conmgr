@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Carriers"
+  DTS:DTSID="{05856E8D-F27D-441B-978F-E18A7AC4B3B2}"
+  DTS:Description="Connection manager for Carriers csv file"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1033"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x0022_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\data\carriers.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="10"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Code"
+          DTS:DTSID="{DE60532E-96B5-43CE-B74D-FFC115E051E9}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:MaximumWidth="100"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Description"
+          DTS:DTSID="{CE3E1CB7-BF27-4C13-94E8-1FB8F4CD017B}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
