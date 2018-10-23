@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimPlane"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{E1CA8156-BC9A-4666-B3EE-12A989405E4D}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{51BE13D0-C50C-4524-A213-5CEECED7131E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -129,7 +129,7 @@
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[issue_date]"
                       dataType="date"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[issue_date]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[issue_date]"
                       name="issue_date"
@@ -233,7 +233,7 @@
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[year]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[year]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[year]"
                       name="year"
