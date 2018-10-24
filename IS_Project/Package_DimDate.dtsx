@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimDate"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{3CEDEE8A-4CD8-4C02-A0ED-70FA2BE62F2F}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{7FC528FE-0FA9-4032-AB61-BBF86F59CF46}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -75,16 +75,16 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="155,42"
-          Id="Package\Truncate Table DimDate"
-          TopLeft="138,48" />
-        <NodeLayout
           Size="251,42"
           Id="Package\Execute Procedure DimDatePopulate"
           TopLeft="85,145" />
+        <NodeLayout
+          Size="206,42"
+          Id="Package\Truncate Table DimDate"
+          TopLeft="107,48" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="213,90">
+          TopLeft="210.25,90">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
