@@ -1,5 +1,5 @@
 ﻿
-CREATE PROC DimDatePopulate
+CREATE PROC [DimDate_Populate]
 AS
 BEGIN
 /********************************************************************************************/
