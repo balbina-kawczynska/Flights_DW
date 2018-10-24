@@ -11,27 +11,27 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimDate"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{7FC528FE-0FA9-4032-AB61-BBF86F59CF46}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{98BEB5F1-1D43-4A53-BD05-416A4A946F27}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Execute Procedure DimDatePopulate"
+      DTS:refId="Package\Execute Procedure DimDate_Populate"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{DBEE723E-801E-4755-95CA-2A306761F42F}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Execute Procedure DimDatePopulate"
+      DTS:ObjectName="Execute Procedure DimDate_Populate"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FA0E0EFD-2792-447E-92FC-032801FB0595}"
-          SQLTask:SqlStatementSource="EXEC [DimDatePopulate];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="EXEC [DimDate_Populate];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -60,7 +60,7 @@
       DTS:From="Package\Truncate Table DimDate"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
-      DTS:To="Package\Execute Procedure DimDatePopulate" />
+      DTS:To="Package\Execute Procedure DimDate_Populate" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -75,8 +75,8 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="251,42"
-          Id="Package\Execute Procedure DimDatePopulate"
+          Size="262,42"
+          Id="Package\Execute Procedure DimDate_Populate"
           TopLeft="85,145" />
         <NodeLayout
           Size="206,42"
@@ -84,7 +84,7 @@
           TopLeft="107,48" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="210.25,90">
+          TopLeft="213,90">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
