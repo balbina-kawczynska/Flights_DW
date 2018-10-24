@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimAirport"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{DBB67F9C-245A-4919-841A-008624757CD3}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{968314C3-F7D6-4199-B668-55773EC38868}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -415,7 +415,7 @@
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Iata]"
                       dataType="wstr"
-                      length="4"
+                      length="7"
                       name="Iata" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AirportName]"
@@ -430,7 +430,7 @@
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[State]"
                       dataType="wstr"
-                      length="2"
+                      length="7"
                       name="State" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Country]"
@@ -558,6 +558,10 @@
           Id="Package\Data Flow Task"
           TopLeft="143,121" />
         <NodeLayout
+          Size="298,42"
+          Id="Package\Execute Procedure DimAirport_InsertUnknown"
+          TopLeft="71,205" />
+        <NodeLayout
           Size="215,42"
           Id="Package\Truncate Table DimAirport"
           TopLeft="107,48" />
@@ -583,10 +587,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="298,42"
-          Id="Package\Execute Procedure DimAirport_InsertUnknown"
-          TopLeft="71,205" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="219.25,163">
