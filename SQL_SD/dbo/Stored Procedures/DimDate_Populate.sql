@@ -1,4 +1,5 @@
-﻿CREATE PROC [DimDate_Populate]
+﻿
+CREATE PROC [DimDate_Populate]
 AS
 BEGIN
 /********************************************************************************************/
