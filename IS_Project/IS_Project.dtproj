@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-VSOL9E4</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP0LbjdxeYkaLF1WX0MjT4AAAAAACAAAAAAAQZgAAAAEAACAAAACQCjyBp4iw4jDHAzrsSdVCrTPQSGKMWdoX3tJGYePykgAAAAAOgAAAAAIAACAAAADxAc7ZJcGQ96gBoPQHNX6cXc2UDJjHK+2RWeWr0EOr6JAAAAA/GRtMw4BIMNypOR5lbTnuTUbgZa4xlOXXerJ1p3x5jA0esRuUMYQltxzM0kid/I3+l+281qzW9tv+DrKhY7NkDJYc81j+F2UXJcSVgkoYBSdflUQ/v5O5loBp94d0NkQegFMrFIkHV9KhD+5+VipZmRvy5wjUEQk4AxRzBuviNpcBKp8aHodX5JNbyPmq1upAAAAA0cqFCN0NTUKbFfaXBoquY3ARGlQZ2/TGkTdsXeFCds+v5Glijt4En1oAboL3StZZvSmVb6fSh/KOU8p8a7lKmQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP0LbjdxeYkaLF1WX0MjT4AAAAAACAAAAAAAQZgAAAAEAACAAAAAWpWYcUVpA+UWvA/yt+tCypcaklVUYs8b0jVdkDS8x+wAAAAAOgAAAAAIAACAAAADHwSRfzmDCE5kvv9mpiBKRruVOtyRIBl/HZprYAfFj6JAAAABuU8kHdXJUnFX03RESeEN+11mfqDdyNBETfogKdc76rSMdc6r0L8PHSkH8LybGUTAaQehQt+PG0z1fvRzOSUQtZCayR81yMBQ1ZuLNt6G7rGMMDcgLIRWpvHyYLAUswEnRthlkfyKjaATL0KoePxUIsuHss1CkJ1fBTW74aZJeUTI5j3h8WK7bq5Ch79yYHU1AAAAAHDWm3vOg7gBx1wvJhYx5zlTr4Fa9JzfRn1jHfrweyQEf40wqCTJEV9sI8Pi0F6AkJo3NcxJGySfgrMDz9ihtog==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -60,21 +60,6 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DBconnect.InitialCatalog">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">SQL_SD</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
             <SSIS:Parameter SSIS:Name="CM.DBconnect.Password">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
@@ -102,21 +87,6 @@
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DBconnect.ServerName">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">DESKTOP-VSOL9E4</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
             <SSIS:Parameter SSIS:Name="CM.DBconnect.UserName">
@@ -687,16 +657,29 @@
                 <SSIS:Property SSIS:Name="Name">Master</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">27</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">33</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6B7EEB86-0885-402D-B271-9E2754844521}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{5B440EAE-267C-4F28-B115-84ACFC376F85}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="FilePath">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{FE4DD936-D5DA-4C7C-8E97-6AEDE66CA5FE}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">Path to source file</SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\1987.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="MainFolderPath">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">{4DC4AFD8-8B06-4B21-BF63-EFF166CBED62}</SSIS:Property>
@@ -706,7 +689,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

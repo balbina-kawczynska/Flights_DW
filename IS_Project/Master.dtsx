@@ -11,11 +11,21 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Master"
   DTS:PackageType="5"
-  DTS:VersionBuild="27"
-  DTS:VersionGUID="{6B7EEB86-0885-402D-B271-9E2754844521}">
+  DTS:VersionBuild="33"
+  DTS:VersionGUID="{5B440EAE-267C-4F28-B115-84ACFC376F85}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:Description="Path to source file"
+      DTS:DTSID="{FE4DD936-D5DA-4C7C-8E97-6AEDE66CA5FE}"
+      DTS:ObjectName="FilePath">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\1987.csv</DTS:Property>
+    </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
@@ -24,10 +34,32 @@
       DTS:ObjectName="MainFolderPath">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts</DTS:Property>
+        DTS:Name="ParameterValue">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
-  <DTS:Variables />
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{4267F6CC-727A-4D15-80D9-25A953DFC72D}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="SourceFile">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{C0C091A9-0D22-4E04-BA0C-EB693D0BA188}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[$Package::MainFolderPath] + @[User::SourceFile]"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="SourceFilePath">
+      <DTS:VariableValue
+        DTS:DataType="8">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\Execute dimensions packages"
@@ -127,28 +159,17 @@
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts" />
+              Folder="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\" />
             <FEFEProperty
               FileSpec="*.csv" />
             <FEFEProperty
               FileNameRetrievalType="1" />
             <FEFEProperty
-              Recurse="0" />
+              Recurse="-1" />
           </ForEachFileEnumeratorProperties>
         </DTS:ObjectData>
       </DTS:ForEachEnumerator>
-      <DTS:Variables>
-        <DTS:Variable
-          DTS:CreationName=""
-          DTS:DTSID="{893D4CEE-C502-4199-B721-0CD600A6675C}"
-          DTS:IncludeInDebugDump="2345"
-          DTS:Namespace="User"
-          DTS:ObjectName="SourceFile">
-          <DTS:VariableValue
-            DTS:DataType="8"
-            xml:space="preserve"></DTS:VariableValue>
-        </DTS:Variable>
-      </DTS:Variables>
+      <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
           DTS:refId="Package\Foreach Loop Container\Execute Package FactFlights"
@@ -171,8 +192,8 @@
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{A3FFCB3A-4329-4FB8-A164-5AA9FB10B604}"
-          DTS:ObjectName="{A3FFCB3A-4329-4FB8-A164-5AA9FB10B604}"
+          DTS:DTSID="{F3B8FE12-F762-4369-B7D9-7B10CC878873}"
+          DTS:ObjectName="{F3B8FE12-F762-4369-B7D9-7B10CC878873}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::SourceFile" />
       </DTS:ForEachVariableMappings>
