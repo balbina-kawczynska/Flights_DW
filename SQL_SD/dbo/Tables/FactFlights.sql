@@ -17,7 +17,7 @@
     [ArrDelay]          SMALLINT      NULL,
     [DepDelay]          SMALLINT      NULL,
     [Origin]            NVARCHAR (5)  NULL,
-    [Dest]              NVARCHAR (5)  NULL,
+    [Dest]              NVARCHAR (7)  NULL,
     [Distance]          SMALLINT      NULL,
     [TaxiIn]            TINYINT       NULL,
     [TaxiOut]           TINYINT       NULL,
@@ -28,7 +28,10 @@
     [WeatherDelay]      SMALLINT      NULL,
     [NASDelay]          SMALLINT      NULL,
     [SecurityDelay]     SMALLINT      NULL,
-    [LateAircraftDelay] SMALLINT      NULL,
-    CONSTRAINT [PK_FactFlights] PRIMARY KEY CLUSTERED ([COLUMNSTORE] ASC)
+    [LateAircraftDelay] SMALLINT      NULL
 );
+
+
+
+
 
