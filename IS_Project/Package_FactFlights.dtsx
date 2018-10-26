@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_FactFlights"
   DTS:PackageType="5"
-  DTS:VersionBuild="46"
-  DTS:VersionGUID="{8669EA8B-6171-426C-BF64-9C200B229C5A}">
+  DTS:VersionBuild="58"
+  DTS:VersionGUID="{72ADEEB4-F19B-418C-BC02-96FE2AE3A92A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -22,7 +22,7 @@
       DTS:DTSID="{B101354D-3CA2-447A-B97B-69501406C0FA}"
       DTS:ObjectName="FactFlights">
       <DTS:PropertyExpression
-        DTS:Name="ConnectionString">@[User::SourceFile]</DTS:PropertyExpression>
+        DTS:Name="ConnectionString">@[$Package::FilePath] + @[User::SourceFile]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -32,7 +32,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts">
+          DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\1987.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -276,6 +276,28 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:Description="Path to facts file"
+      DTS:DTSID="{38D64290-7576-48B8-820B-03237E99F5D0}"
+      DTS:ObjectName="FilePath">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\1987.csv</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:Description="Main folder for this ETL"
+      DTS:DTSID="{3945E309-39C1-4C93-B040-E375B8359FD7}"
+      DTS:ObjectName="MainFolderPath">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
@@ -284,16 +306,19 @@
       DTS:Namespace="User"
       DTS:ObjectName="SourceFile">
       <DTS:VariableValue
-        DTS:DataType="8">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts</DTS:VariableValue>
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{6842E111-F6C1-406E-A4AA-47107AAB88A8}"
+      DTS:DTSID="{22EE4A4D-2241-496A-BD18-DD7E4D740056}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[$Package::MainFolderPath] + @[User::SourceFile]"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
-      DTS:ObjectName="SourceFileType">
+      DTS:ObjectName="SourceFilePath">
       <DTS:VariableValue
-        DTS:DataType="8">.csv</DTS:VariableValue>
+        DTS:DataType="8">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>

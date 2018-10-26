@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Master"
   DTS:PackageType="5"
-  DTS:VersionBuild="21"
-  DTS:VersionGUID="{E3A74FEC-9773-4EFC-B50E-424A02D6E13B}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{6B7EEB86-0885-402D-B271-9E2754844521}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -131,13 +131,24 @@
             <FEFEProperty
               FileSpec="*.csv" />
             <FEFEProperty
-              FileNameRetrievalType="0" />
+              FileNameRetrievalType="1" />
             <FEFEProperty
               Recurse="0" />
           </ForEachFileEnumeratorProperties>
         </DTS:ObjectData>
       </DTS:ForEachEnumerator>
-      <DTS:Variables />
+      <DTS:Variables>
+        <DTS:Variable
+          DTS:CreationName=""
+          DTS:DTSID="{893D4CEE-C502-4199-B721-0CD600A6675C}"
+          DTS:IncludeInDebugDump="2345"
+          DTS:Namespace="User"
+          DTS:ObjectName="SourceFile">
+          <DTS:VariableValue
+            DTS:DataType="8"
+            xml:space="preserve"></DTS:VariableValue>
+        </DTS:Variable>
+      </DTS:Variables>
       <DTS:Executables>
         <DTS:Executable
           DTS:refId="Package\Foreach Loop Container\Execute Package FactFlights"
@@ -157,6 +168,14 @@
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{A3FFCB3A-4329-4FB8-A164-5AA9FB10B604}"
+          DTS:ObjectName="{A3FFCB3A-4329-4FB8-A164-5AA9FB10B604}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::SourceFile" />
+      </DTS:ForEachVariableMappings>
     </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>

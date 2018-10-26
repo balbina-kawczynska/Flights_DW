@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-VSOL9E4</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP0LbjdxeYkaLF1WX0MjT4AAAAAACAAAAAAAQZgAAAAEAACAAAABpvjPZBTc9kJeQFRlKo3z+aI3o/EIyIXa5xXofnUcc2gAAAAAOgAAAAAIAACAAAADmOmfvhOFvAfjPNJ+YUnh6bNkoUVUh4gTRtLlnN9K6NJAAAAB7/LOz5vks6Ed4dGzwj63qDP1lf5VWuVBNrz4qEDKoDf0YQx5mh2vPygy5Z2chQFrmn3GHSHll1Mab719M/x/6SWdQj79bWFJbAYqRdc8KuYVUPnKLF9mVWI/J81UKTOjQ2DM2Y9UWr4DxorRepsqqkYsIST5jjO9WEb37CP0DiJfL10CXujcpNmrZDZnCjvpAAAAAxNrsOIib/ocOQKwqirSA8h+DVwvxL3T/Z/byBtqGQs1OUsYh0z4FH6J+7N7GuLlvQhjgP7jpvC18ywNefUERYw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP0LbjdxeYkaLF1WX0MjT4AAAAAACAAAAAAAQZgAAAAEAACAAAACQCjyBp4iw4jDHAzrsSdVCrTPQSGKMWdoX3tJGYePykgAAAAAOgAAAAAIAACAAAADxAc7ZJcGQ96gBoPQHNX6cXc2UDJjHK+2RWeWr0EOr6JAAAAA/GRtMw4BIMNypOR5lbTnuTUbgZa4xlOXXerJ1p3x5jA0esRuUMYQltxzM0kid/I3+l+281qzW9tv+DrKhY7NkDJYc81j+F2UXJcSVgkoYBSdflUQ/v5O5loBp94d0NkQegFMrFIkHV9KhD+5+VipZmRvy5wjUEQk4AxRzBuviNpcBKp8aHodX5JNbyPmq1upAAAAA0cqFCN0NTUKbFfaXBoquY3ARGlQZ2/TGkTdsXeFCds+v5Glijt4En1oAboL3StZZvSmVb6fSh/KOU8p8a7lKmQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -687,10 +687,10 @@
                 <SSIS:Property SSIS:Name="Name">Master</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">21</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">27</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E3A74FEC-9773-4EFC-B50E-424A02D6E13B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6B7EEB86-0885-402D-B271-9E2754844521}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -786,16 +786,42 @@
                 <SSIS:Property SSIS:Name="Name">Package_FactFlights</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">46</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">58</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8669EA8B-6171-426C-BF64-9C200B229C5A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{72ADEEB4-F19B-418C-BC02-96FE2AE3A92A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="FilePath">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{38D64290-7576-48B8-820B-03237E99F5D0}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">Path to facts file</SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\1987.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="MainFolderPath">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{3945E309-39C1-4C93-B040-E375B8359FD7}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">Main folder for this ETL</SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.FactFlights.AlwaysCheckForRowDelimiters">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
