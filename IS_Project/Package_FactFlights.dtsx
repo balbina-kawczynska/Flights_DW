@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_FactFlights"
   DTS:PackageType="5"
-  DTS:VersionBuild="60"
-  DTS:VersionGUID="{37C56666-6D07-48BD-97D4-7F9FF5D0A315}">
+  DTS:VersionBuild="70"
+  DTS:VersionGUID="{D7585384-E08E-4612-B286-7F9F2CA27280}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -40,7 +40,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="Year"
-              DTS:DTSID="{7349B968-4E3B-451E-B220-2C9E96921078}"
+              DTS:DTSID="{C55D8D22-EB23-4341-8C6C-4BCA5803FD25}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="Month"
-              DTS:DTSID="{CA2D0A99-1EF5-4315-9753-7BD1646898FA}"
+              DTS:DTSID="{80840009-73EF-4335-B1E8-209D6CCD63D5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -56,7 +56,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="DayofMonth"
-              DTS:DTSID="{4A4DD38A-EC95-45D4-A13A-7913EEE60DB9}"
+              DTS:DTSID="{54DB33FA-6ECC-4B12-981D-9BD4590CF662}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -64,15 +64,16 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="DayOfWeek"
-              DTS:DTSID="{1D4C3483-6553-48DF-BA8F-C83D137F5897}"
+              DTS:DTSID="{4D25D098-E24E-43BD-BE78-CAC65C084FDA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DepTime"
-              DTS:DTSID="{0E10C38F-1BFE-41EB-9964-C2DC2EAF0A1A}"
+              DTS:DTSID="{5567225F-5C0D-4C86-A633-2A27823C2EAD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -80,15 +81,16 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSDepTime"
-              DTS:DTSID="{9587949A-7E6C-4C0A-86F7-30511C31BB02}"
+              DTS:DTSID="{61429913-0577-43F4-A9D3-C32B5942DB3E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ArrTime"
-              DTS:DTSID="{0699E2CB-6D9B-4380-B610-C08430C5F68E}"
+              DTS:DTSID="{8DA8D212-5348-4F61-901D-8B0968F92ACF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -96,7 +98,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSArrTime"
-              DTS:DTSID="{969299D9-2D28-4234-BBAB-F308A70BDFF5}"
+              DTS:DTSID="{1AC6852A-9A77-493E-989A-761FAB9E8EE4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -105,7 +107,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="UniqueCarrier"
-              DTS:DTSID="{1F6A4C02-DD54-4942-A767-EDC4DEEED4A2}"
+              DTS:DTSID="{5184C0A7-0488-4971-A5E8-3CF6F42AF99E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -113,7 +115,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="FlightNum"
-              DTS:DTSID="{D0D6A991-89C1-4D66-8F61-D6B962781D50}"
+              DTS:DTSID="{47E81A93-73BF-4844-81A9-85D494F8C213}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -122,15 +124,16 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TailNum"
-              DTS:DTSID="{15DD3DB4-15D1-41CD-8A9B-3340E1C7BBBA}"
+              DTS:DTSID="{72043369-3847-44D0-AA4E-755DFAFED40F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ActualElapsedTime"
-              DTS:DTSID="{69202655-DCB0-4731-BC50-C92F3A249710}"
+              DTS:DTSID="{60BA2290-ECE1-4500-9A35-ECEFF4FD365D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -138,31 +141,34 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSElapsedTime"
-              DTS:DTSID="{7B48EA49-9BA5-473C-AFA9-5D0F2B7B9B6F}"
+              DTS:DTSID="{C1E14737-E508-4F43-B450-0FFC7A958D76}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AirTime"
-              DTS:DTSID="{D91B3B5E-1973-41AB-B962-BE9C2E3D4ED9}"
+              DTS:DTSID="{2793ED2E-DB9A-4441-8AFF-8AC38C42F00A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ArrDelay"
-              DTS:DTSID="{0C09720E-EA71-4A06-85F0-C3E37018997B}"
+              DTS:DTSID="{01AAED24-99EF-4280-BF60-9110ED225576}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DepDelay"
-              DTS:DTSID="{02DB371A-3A18-47B4-AC75-D4793402A439}"
+              DTS:DTSID="{6A0295FF-3D56-43C5-ADB6-40C4B3E92233}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -171,7 +177,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Origin"
-              DTS:DTSID="{14EAD8D7-504F-4CFF-8008-8E5070337B5B}"
+              DTS:DTSID="{80A47D43-4999-415A-AFBA-9730BE3DD7E6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -180,31 +186,34 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Dest"
-              DTS:DTSID="{A059A5F2-C93C-4ECC-ACF4-09A3E238323A}"
+              DTS:DTSID="{1D9CDA80-EB78-4573-B9DD-A0307E17B478}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Distance"
-              DTS:DTSID="{0198E948-CD51-4F10-8E7D-184E05C03B4E}"
+              DTS:DTSID="{4DBB5331-643D-4C41-BA68-2AEC6C44B0DB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TaxiIn"
-              DTS:DTSID="{26F47946-BEEF-42FE-90BA-B4A1F4673DC0}"
+              DTS:DTSID="{6C2D40A8-2064-4BB5-8D86-539BE38258F0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TaxiOut"
-              DTS:DTSID="{41665971-D530-4161-BA22-081F5E944CBE}"
+              DTS:DTSID="{C9C0C04C-9975-41D5-96D1-F485C55C229D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -212,7 +221,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Cancelled"
-              DTS:DTSID="{4022DF08-8765-479F-BD25-8DA0ECF4DD6F}"
+              DTS:DTSID="{969B74EF-8B36-4F55-832F-257F629D1FEE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -221,7 +230,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CancellationCode"
-              DTS:DTSID="{216CFCF0-7F54-4B8C-BB59-C05464FCDFB7}"
+              DTS:DTSID="{5A9656B9-93F0-45A3-B984-08E836D8129C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -229,47 +238,52 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Diverted"
-              DTS:DTSID="{3F7423E0-F5F4-4318-A461-C78CBF30EEAF}"
+              DTS:DTSID="{0822573C-98C5-4AE5-8615-6F743373E294}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CarrierDelay"
-              DTS:DTSID="{19111DC4-9873-43B9-B74B-D72FC874311D}"
+              DTS:DTSID="{540C5737-7E7C-4F8B-A7F1-E827A866B6D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="WeatherDelay"
-              DTS:DTSID="{B2E1FE40-4541-4323-91C3-F474F7EE1A3B}"
+              DTS:DTSID="{21FBF5C8-89D3-425E-9E2F-347EED6472AC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="NASDelay"
-              DTS:DTSID="{A6555467-9529-47C1-961F-4F9B345CDE8C}"
+              DTS:DTSID="{79A912B9-A5AD-49B3-9AE1-8394F24255B0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SecurityDelay"
-              DTS:DTSID="{D590F3D4-9BE8-4DED-A357-6C1B1263C608}"
+              DTS:DTSID="{25FF0F1A-F482-4F86-B009-3A753BAA7E15}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="20"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="LateAircraftDelay"
-              DTS:DTSID="{078175DC-DE5F-4737-B50A-8FB4FA2AF6E5}"
+              DTS:DTSID="{3AA0FC9C-72B7-478D-805F-FE369FDC02EA}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -295,7 +309,7 @@
       DTS:ObjectName="MainFolderPath">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts\</DTS:Property>
+        DTS:Name="ParameterValue">D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\facts</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables>
@@ -313,7 +327,7 @@
       DTS:CreationName=""
       DTS:DTSID="{22EE4A4D-2241-496A-BD18-DD7E4D740056}"
       DTS:EvaluateAsExpression="True"
-      DTS:Expression="@[$Package::MainFolderPath] + @[User::SourceFile]"
+      DTS:Expression="@[$Package::MainFolderPath] + &quot;\\&quot; + @[User::SourceFile]"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="SourceFilePath">
@@ -498,10 +512,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DepTime]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]"
                       name="DepTime"
                       truncationRowDisposition="FailComponent">
@@ -538,10 +553,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ArrTime]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]"
                       name="ArrTime"
                       truncationRowDisposition="FailComponent">
@@ -640,10 +656,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ActualElapsedTime]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ActualElapsedTime]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ActualElapsedTime]"
                       name="ActualElapsedTime"
                       truncationRowDisposition="FailComponent">
@@ -680,10 +697,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[AirTime]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AirTime]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[AirTime]"
                       name="AirTime"
                       truncationRowDisposition="FailComponent">
@@ -700,10 +718,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrDelay]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ArrDelay]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrDelay]"
                       name="ArrDelay"
                       truncationRowDisposition="FailComponent">
@@ -720,10 +739,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepDelay]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DepDelay]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepDelay]"
                       name="DepDelay"
                       truncationRowDisposition="FailComponent">
@@ -782,10 +802,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Distance]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Distance]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Distance]"
                       name="Distance"
                       truncationRowDisposition="FailComponent">
@@ -802,10 +823,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiIn]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TaxiIn]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiIn]"
                       name="TaxiIn"
                       truncationRowDisposition="FailComponent">
@@ -822,10 +844,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiOut]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TaxiOut]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiOut]"
                       name="TaxiOut"
                       truncationRowDisposition="FailComponent">
@@ -903,10 +926,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CarrierDelay]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CarrierDelay]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CarrierDelay]"
                       name="CarrierDelay"
                       truncationRowDisposition="FailComponent">
@@ -923,10 +947,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[WeatherDelay]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[WeatherDelay]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[WeatherDelay]"
                       name="WeatherDelay"
                       truncationRowDisposition="FailComponent">
@@ -943,10 +968,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[NASDelay]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NASDelay]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[NASDelay]"
                       name="NASDelay"
                       truncationRowDisposition="FailComponent">
@@ -963,10 +989,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[SecurityDelay]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SecurityDelay]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[SecurityDelay]"
                       name="SecurityDelay"
                       truncationRowDisposition="FailComponent">
@@ -983,10 +1010,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[LateAircraftDelay]"
-                      dataType="i8"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LateAircraftDelay]"
+                      length="4"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[LateAircraftDelay]"
                       name="LateAircraftDelay"
                       truncationRowDisposition="FailComponent">
@@ -1022,7 +1050,8 @@
                       name="DayOfWeek" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DepTime]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="DepTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CRSDepTime]"
@@ -1030,7 +1059,8 @@
                       name="CRSDepTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ArrTime]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="ArrTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CRSArrTime]"
@@ -1052,7 +1082,8 @@
                       name="TailNum" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ActualElapsedTime]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="ActualElapsedTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CRSElapsedTime]"
@@ -1060,15 +1091,18 @@
                       name="CRSElapsedTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AirTime]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="4"
                       name="AirTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ArrDelay]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="ArrDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DepDelay]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="DepDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Origin]"
@@ -1082,15 +1116,18 @@
                       name="Dest" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Distance]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="Distance" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TaxiIn]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="TaxiIn" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TaxiOut]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="TaxiOut" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cancelled]"
@@ -1107,23 +1144,28 @@
                       name="Diverted" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CarrierDelay]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="CarrierDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[WeatherDelay]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="WeatherDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NASDelay]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="NASDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SecurityDelay]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="SecurityDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LateAircraftDelay]"
-                      dataType="i8"
+                      dataType="wstr"
+                      length="4"
                       name="LateAircraftDelay" />
                   </externalMetadataColumns>
                 </output>
@@ -1254,7 +1296,8 @@
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DayOfWeek]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DepTime]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="DepTime"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DepTime]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]" />
@@ -1266,7 +1309,8 @@
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSDepTime]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ArrTime]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="ArrTime"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ArrTime]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]" />
@@ -1298,7 +1342,8 @@
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TailNum]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ActualElapsedTime]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="ActualElapsedTime"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ActualElapsedTime]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ActualElapsedTime]" />
@@ -1310,19 +1355,22 @@
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSElapsedTime]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AirTime]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="AirTime"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AirTime]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[AirTime]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ArrDelay]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="ArrDelay"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ArrDelay]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrDelay]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DepDelay]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="DepDelay"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DepDelay]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepDelay]" />
@@ -1342,19 +1390,22 @@
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Dest]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Distance]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="Distance"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Distance]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Distance]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TaxiIn]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="TaxiIn"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TaxiIn]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiIn]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TaxiOut]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="TaxiOut"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TaxiOut]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiOut]" />
@@ -1379,31 +1430,36 @@
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Diverted]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CarrierDelay]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="CarrierDelay"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CarrierDelay]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CarrierDelay]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[WeatherDelay]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="WeatherDelay"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[WeatherDelay]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[WeatherDelay]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NASDelay]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="NASDelay"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NASDelay]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[NASDelay]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SecurityDelay]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="SecurityDelay"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SecurityDelay]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[SecurityDelay]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LateAircraftDelay]"
-                      cachedDataType="i8"
+                      cachedDataType="wstr"
+                      cachedLength="4"
                       cachedName="LateAircraftDelay"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LateAircraftDelay]"
                       lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[LateAircraftDelay]" />
@@ -1428,7 +1484,8 @@
                       name="DayOfWeek" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DepTime]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="DepTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRSDepTime]"
@@ -1436,7 +1493,8 @@
                       name="CRSDepTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ArrTime]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="ArrTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRSArrTime]"
@@ -1458,7 +1516,8 @@
                       name="TailNum" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ActualElapsedTime]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="ActualElapsedTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRSElapsedTime]"
@@ -1466,15 +1525,18 @@
                       name="CRSElapsedTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AirTime]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="AirTime" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ArrDelay]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="ArrDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DepDelay]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="DepDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Origin]"
@@ -1488,15 +1550,18 @@
                       name="Dest" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Distance]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="Distance" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TaxiIn]"
-                      dataType="ui1"
+                      dataType="wstr"
+                      length="4"
                       name="TaxiIn" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TaxiOut]"
-                      dataType="ui1"
+                      dataType="wstr"
+                      length="4"
                       name="TaxiOut" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Cancelled]"
@@ -1513,23 +1578,28 @@
                       name="Diverted" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CarrierDelay]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="CarrierDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[WeatherDelay]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="WeatherDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NASDelay]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="NASDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SecurityDelay]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="SecurityDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LateAircraftDelay]"
-                      dataType="i2"
+                      dataType="wstr"
+                      length="4"
                       name="LateAircraftDelay" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[COLUMNSTORE]"
@@ -1595,7 +1665,7 @@
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task"
-          TopLeft="112,80" />
+          TopLeft="108,56" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
