@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Master"
   DTS:PackageType="5"
-  DTS:VersionBuild="40"
-  DTS:VersionGUID="{F923569C-EF7C-461C-A71A-3A6D356233C5}">
+  DTS:VersionBuild="41"
+  DTS:VersionGUID="{5AC4B7B9-8F2C-4EB6-B138-33BD59101402}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -21,7 +21,6 @@
       DTS:refId="Package\Execute dimensions packages"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{AFE37A0B-D846-420D-9188-822051C2F591}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
