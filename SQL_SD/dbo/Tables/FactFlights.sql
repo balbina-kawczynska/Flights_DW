@@ -9,7 +9,7 @@
     [ArrTime]           NVARCHAR (4)  NULL,
     [CRSArrTime]        NVARCHAR (4)  NULL,
     [UniqueCarrier]     NVARCHAR (7)  NULL,
-    [FlightNum]         NVARCHAR (50) NULL,
+    [FlightNum]         NVARCHAR (6)  NULL,
     [TailNum]           NVARCHAR (10) NULL,
     [ActualElapsedTime] NVARCHAR (4)  NULL,
     [CRSElapsedTime]    NVARCHAR (4)  NULL,
@@ -28,8 +28,11 @@
     [WeatherDelay]      NVARCHAR (4)  NULL,
     [NASDelay]          NVARCHAR (4)  NULL,
     [SecurityDelay]     NVARCHAR (4)  NULL,
-    [LateAircraftDelay] NVARCHAR (4)  NULL
+    [LateAircraftDelay] NVARCHAR (4)  NULL,
+    CONSTRAINT [PK_FactFlights] PRIMARY KEY CLUSTERED ([COLUMNSTORE] ASC)
 );
+
+
 
 
 
