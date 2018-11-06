@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_FactFlights"
   DTS:PackageType="5"
-  DTS:VersionBuild="94"
-  DTS:VersionGUID="{EBE8540D-3709-45A8-AFF0-8D3579E51487}">
+  DTS:VersionBuild="95"
+  DTS:VersionGUID="{0ACAC6E9-13D4-4155-B8F3-6644BAECA3CE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1228,7 +1228,7 @@
                     <property
                       dataType="System.String"
                       description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                      name="FastLoadOptions">CHECK_CONSTRAINTS</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
