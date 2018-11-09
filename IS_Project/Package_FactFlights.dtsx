@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_FactFlights"
   DTS:PackageType="5"
-  DTS:VersionBuild="131"
-  DTS:VersionGUID="{8EAF442C-E4E2-40D9-BEE1-4CE0A4510A62}">
+  DTS:VersionBuild="210"
+  DTS:VersionGUID="{F6D00A28-A92B-4302-A6D9-0D1E3CD4F6FA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -41,7 +41,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Year"
-              DTS:DTSID="{456F5479-7CC6-4C84-B5B7-5165021744E6}"
+              DTS:DTSID="{ECEF1A54-E318-445A-904D-A0DF3439C432}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -50,7 +50,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Month"
-              DTS:DTSID="{6CFF44E5-2CB9-4C72-9FDE-12DDFC22DEBC}"
+              DTS:DTSID="{499F7720-B0EF-447D-B0AB-DEE9B4515675}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -59,7 +59,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DayofMonth"
-              DTS:DTSID="{516D39AA-9765-40BC-9140-E9588336A72C}"
+              DTS:DTSID="{D2920E39-A3A1-4EBE-A958-1A03737D5975}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -68,43 +68,43 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DayOfWeek"
-              DTS:DTSID="{3A658269-20CF-43E1-8A7D-F8027D4A6295}"
+              DTS:DTSID="{E38C6616-D30F-40DE-BBA9-70ABA9C04842}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="4"
+              DTS:MaximumWidth="8"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DepTime"
-              DTS:DTSID="{70D5C310-26D8-4725-A3A3-FDA5EF1774D9}"
+              DTS:DTSID="{08476B6C-7B51-4C2F-8331-3DFED588EA5C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="4"
+              DTS:MaximumWidth="8"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSDepTime"
-              DTS:DTSID="{2C014678-7DA7-473A-B186-B1ADBE921CBF}"
+              DTS:DTSID="{A7342A85-D750-4706-B99F-E3442136B793}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="4"
+              DTS:MaximumWidth="8"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ArrTime"
-              DTS:DTSID="{5B0E8F24-6D9E-44F1-B19B-300F47CA0B92}"
+              DTS:DTSID="{C41EB3A7-4428-4C76-A052-F933AA5F5015}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="4"
+              DTS:MaximumWidth="8"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSArrTime"
-              DTS:DTSID="{D842B3AB-83C4-4D2E-A234-685EA8FAA309}"
+              DTS:DTSID="{E8AE2195-C049-45C0-B124-86BA77F6110B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -113,16 +113,16 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="UniqueCarrier"
-              DTS:DTSID="{9C1A7644-6A75-4277-A1E6-D9BD70BD3E1C}"
+              DTS:DTSID="{DF405A4D-05FA-4BEF-A29D-843934691A85}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="4"
+              DTS:MaximumWidth="6"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="FlightNum"
-              DTS:DTSID="{64A6C6DC-3182-4AD3-91D0-FECA348197E0}"
+              DTS:DTSID="{FEE8D0DB-E89C-4F0B-BC46-856B4BD449D4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -131,7 +131,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TailNum"
-              DTS:DTSID="{1A8D7BBE-CD46-446C-BED3-06C7D85A42F2}"
+              DTS:DTSID="{65081886-F98C-4D54-9AE6-47CD9AAD674A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -140,7 +140,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ActualElapsedTime"
-              DTS:DTSID="{DABAF57B-EBD6-4BF5-B781-311D04D2F7F7}"
+              DTS:DTSID="{2EBCFC96-236E-4630-BA93-BA1283FDB285}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -149,7 +149,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSElapsedTime"
-              DTS:DTSID="{CC8FC03F-FEC8-401A-BA1C-6AFFFA06E272}"
+              DTS:DTSID="{D163D430-B196-4A56-B050-C5CF4EBF8A51}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -158,7 +158,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AirTime"
-              DTS:DTSID="{C5DF52BC-961A-4BFE-9548-A0A150443695}"
+              DTS:DTSID="{5130CD75-6EB2-4CD4-AB8A-F13BA44DFDDD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -167,7 +167,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ArrDelay"
-              DTS:DTSID="{9E65A84E-92E2-43C7-8A0B-E81BDB98A971}"
+              DTS:DTSID="{D2205B86-8A60-40BC-B1E5-D5DFA4803F07}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -176,7 +176,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DepDelay"
-              DTS:DTSID="{D6FF647F-2E60-4576-B7AD-F2BD00B88F75}"
+              DTS:DTSID="{AF538061-F149-41A6-8D53-FDCFD95B7E13}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -185,7 +185,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Origin"
-              DTS:DTSID="{744FC217-FBF8-4B4A-9BAC-15C8A79FEA0A}"
+              DTS:DTSID="{D8F4CAE7-870D-4ED4-81BB-198F77AF55F4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -194,7 +194,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Dest"
-              DTS:DTSID="{BE624B71-9492-413E-9028-49C368F33DD1}"
+              DTS:DTSID="{434632E8-6714-4BC2-9003-E4BAD85D51C2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -203,7 +203,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Distance"
-              DTS:DTSID="{EB3363CB-22B6-4D58-9B5A-77701DAB0CDD}"
+              DTS:DTSID="{2A285F88-72C6-4831-9B58-EA0F05F8C764}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -212,7 +212,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TaxiIn"
-              DTS:DTSID="{59251DD1-6012-4223-B7C1-4CA3B4035489}"
+              DTS:DTSID="{DCECC03B-9B32-4F72-B423-1FAAB65A1E5E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -221,7 +221,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TaxiOut"
-              DTS:DTSID="{89863F7F-38B9-4A70-80F5-A2C3BD22BB87}"
+              DTS:DTSID="{DF36FF57-15F5-4D97-A33A-02824FE48C26}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -229,7 +229,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Cancelled"
-              DTS:DTSID="{011F6C40-AABA-44A3-97FA-F2162EFC07A4}"
+              DTS:DTSID="{1158DE74-4A5A-460C-AC46-2476E792EE2D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -238,7 +238,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CancellationCode"
-              DTS:DTSID="{B604D6EC-BB67-420B-8ACD-981872FBC927}"
+              DTS:DTSID="{E688B274-DEEF-4F9B-BC8F-4BADFE39C40F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -246,7 +246,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Diverted"
-              DTS:DTSID="{34E74054-518D-4D72-90AE-611E66E4449B}"
+              DTS:DTSID="{4104838A-359A-4B32-A5E5-8D992397DAEB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -255,7 +255,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CarrierDelay"
-              DTS:DTSID="{FC7F2E96-0DE3-4F0F-8C4C-CA9BC19ACDEB}"
+              DTS:DTSID="{1E0C2097-5FE3-4AD7-B402-677710588228}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -264,7 +264,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="WeatherDelay"
-              DTS:DTSID="{C6977AFB-9971-4CE9-8D7C-3043E1906524}"
+              DTS:DTSID="{9E2C4A52-521D-42F1-9261-E1D80276555A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -273,7 +273,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="NASDelay"
-              DTS:DTSID="{2310051C-7FF4-4D0F-BF37-C5452C436348}"
+              DTS:DTSID="{5CEE9956-640A-4492-9A35-F2E58B203E3A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -282,16 +282,328 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SecurityDelay"
-              DTS:DTSID="{C7AD27A5-9633-47C8-9F17-1E32F6EBDD66}"
+              DTS:DTSID="{F3CD5145-0FC9-40E4-BD2D-662D0A89278F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:ColumnDelimiter="_x000A_"
               DTS:MaximumWidth="4"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="LateAircraftDelay"
-              DTS:DTSID="{965394F7-29BE-466A-8DB2-D0B55D674435}"
+              DTS:DTSID="{23F53DE2-87C2-4586-8304-1027D3C761B1}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{794D68B4-2E44-49A9-AC53-D4F42381E500}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Lilib\Downloads\fakty\error output.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Year"
+              DTS:DTSID="{FBE5612B-0BC4-46F2-A6C1-171FFC251CF8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="2"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Month"
+              DTS:DTSID="{8DC2D61D-27FD-45D1-BF36-83C2307466A0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="2"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DayofMonth"
+              DTS:DTSID="{9DB29E7C-8B4D-449E-BA98-22B98819DA68}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="1"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DayOfWeek"
+              DTS:DTSID="{6B14C45D-A859-4741-8A38-74FE6BB6D2D8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="8"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DepTime"
+              DTS:DTSID="{A7A795A9-A35F-4BE5-917C-064E6A32BFBE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="8"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CRSDepTime"
+              DTS:DTSID="{E3794ECD-4E09-43B0-9C0B-0919F1997E51}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="8"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ArrTime"
+              DTS:DTSID="{FB071A8F-98F3-45BB-914D-1C69F85370F2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="8"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CRSArrTime"
+              DTS:DTSID="{3FADB99D-7384-43BD-8051-276B036EF234}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="7"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UniqueCarrier"
+              DTS:DTSID="{416A52D1-AFB3-437A-9D22-2CEE697D65BB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FlightNum"
+              DTS:DTSID="{31C6C6C5-8A13-4C6E-86DF-35668C85AD97}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TailNum"
+              DTS:DTSID="{C70BFD80-2AD1-4E58-B8F8-044FE95D333F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ActualElapsedTime"
+              DTS:DTSID="{1E62EEF1-3301-4DB8-BF4E-97762D82D0B9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CRSElapsedTime"
+              DTS:DTSID="{5E3550C5-8B95-4265-BCC3-5742FF0FA2C2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AirTime"
+              DTS:DTSID="{9B1D5DFC-647A-48C7-A560-14A0DB255717}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="7"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ArrDelay"
+              DTS:DTSID="{D1301D3C-9435-4F03-B8E8-AF21283F0C42}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="7"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DepDelay"
+              DTS:DTSID="{A2EC1304-D8BF-4920-99CE-65FA8E4A5A01}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="5"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Origin"
+              DTS:DTSID="{8E490C8A-F3EF-4132-ACE7-3FC74D039028}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="7"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dest"
+              DTS:DTSID="{14DEDDF6-5B49-4160-8957-58951177BC4F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Distance"
+              DTS:DTSID="{5B88F401-C347-4732-BB31-CCF1492C5623}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TaxiIn"
+              DTS:DTSID="{B5476577-C086-4209-B208-9D92BF8802F1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TaxiOut"
+              DTS:DTSID="{5653582B-1DDC-4E5D-A677-94D6CC590722}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Cancelled"
+              DTS:DTSID="{186495F5-1BC7-4CCB-B896-8E0B36A738DA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CancellationCode"
+              DTS:DTSID="{FD679BBF-945D-4C16-BF4B-97EF68D78E5A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Diverted"
+              DTS:DTSID="{DB04D59A-3397-4050-8CD9-11FD2075F43B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CarrierDelay"
+              DTS:DTSID="{2D53674C-C79C-4BFA-933B-4F84629D148C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="WeatherDelay"
+              DTS:DTSID="{2472D8E4-740F-4B34-99B1-DFF899C4E554}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NASDelay"
+              DTS:DTSID="{CDDC1EBE-6E1C-4A4D-9CDA-72996EEB1572}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SecurityDelay"
+              DTS:DTSID="{0499EFAA-8F45-4338-8EE4-FFEA38FE8BA5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LateAircraftDelay"
+              DTS:DTSID="{CE5863B4-3315-4B6F-B55B-AF8FA924C964}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Template_Date"
+              DTS:DTSID="{5728AD0E-C716-4EEA-AC9B-937B475BC4D7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date"
+              DTS:DTSID="{ED983B62-5E7B-4D1C-8C51-DE8C6659D9EB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{9A17BD7A-37D5-41F7-BF4E-3CD40519D12B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{84AE70EE-19E1-44B5-A4DA-9F0BAAE4ED78}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -450,6 +762,346 @@
                           refId="Package\Foreach Loop Container\Data Flow Task\Construct Date.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Construct Date.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Container\Data Flow Task\Construct String"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Construct String"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Inputs[Derived Column Input].Columns[DepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="DepTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Inputs[Derived Column Input].Columns[CRSDepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="CRSDepTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSDepTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Inputs[Derived Column Input].Columns[ArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="ArrTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Inputs[Derived Column Input].Columns[CRSArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="CRSArrTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSArrTime]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Construct String.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_DepTime]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="6"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_DepTime]"
+                          name="Temp1_DepTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[RIGHT]("000" + #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]},4) + "00"</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">RIGHT("000" + DepTime,4) + "00"</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSDepTime]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="6"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSDepTime]"
+                          name="Temp1_CRSDepTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[RIGHT]("000" + #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSDepTime]},4) + "00"</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">RIGHT("000" + CRSDepTime,4) + "00"</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_ArrTime]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="6"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_ArrTime]"
+                          name="Temp1_ArrTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[RIGHT]("000" + #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]},4) + "00"</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">RIGHT("000" + ArrTime,4) + "00"</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSArrTime]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="6"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSArrTime]"
+                          name="Temp1_CRSArrTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[RIGHT]("000" + #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSArrTime]},4) + "00"</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">RIGHT("000" + CRSArrTime,4) + "00"</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Construct String.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Container\Data Flow Task\Construct Time"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Construct Time"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input].Columns[DepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="DepTime"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]"
+                          truncationRowDisposition="FailComponent"
+                          usageType="readWrite">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_DepTime]},1,2) + ":" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_DepTime]},3,2) + ":" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_DepTime]},5,2)</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">SUBSTRING(Temp2_DepTime,1,2) + ":" + SUBSTRING(Temp2_DepTime,3,2) + ":" + SUBSTRING(Temp2_DepTime,5,2)</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input].Columns[CRSDepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="CRSDepTime"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSDepTime]"
+                          truncationRowDisposition="FailComponent"
+                          usageType="readWrite">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_CRSDepTime]},1,2) + ":" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_CRSDepTime]},3,2) + ":" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_CRSDepTime]},5,2)</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">SUBSTRING(Temp2_CRSDepTime,1,2) + ":" + SUBSTRING(Temp2_CRSDepTime,3,2) + ":" + SUBSTRING(Temp2_CRSDepTime,5,2)</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input].Columns[ArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="ArrTime"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]"
+                          truncationRowDisposition="FailComponent"
+                          usageType="readWrite">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_ArrTime]},1,2) + ":" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_ArrTime]},3,2) + ":" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_ArrTime]},5,2)</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">SUBSTRING(Temp2_ArrTime,1,2) + ":" + SUBSTRING(Temp2_ArrTime,3,2) + ":" + SUBSTRING(Temp2_ArrTime,5,2)</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input].Columns[CRSArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="CRSArrTime"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSArrTime]"
+                          truncationRowDisposition="FailComponent"
+                          usageType="readWrite">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_CRSArrTime]},1,2) + ":" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_CRSArrTime]},3,2) + ":" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Replace "24".Outputs[Derived Column Output].Columns[Temp2_CRSArrTime]},5,2)</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">SUBSTRING(Temp2_CRSArrTime,1,2) + ":" + SUBSTRING(Temp2_CRSArrTime,3,2) + ":" + SUBSTRING(Temp2_CRSArrTime,5,2)</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input].Columns[Temp2_DepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="6"
+                          cachedName="Temp2_DepTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_DepTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input].Columns[Temp2_CRSDepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="6"
+                          cachedName="Temp2_CRSDepTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_CRSDepTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input].Columns[Temp2_ArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="6"
+                          cachedName="Temp2_ArrTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_ArrTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input].Columns[Temp2_CRSArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="6"
+                          cachedName="Temp2_CRSArrTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_CRSArrTime]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -654,7 +1306,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DepTime]"
-                          length="4"
+                          length="8"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]"
                           name="DepTime"
                           truncationRowDisposition="FailComponent">
@@ -675,7 +1327,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CRSDepTime]"
-                          length="4"
+                          length="8"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSDepTime]"
                           name="CRSDepTime"
                           truncationRowDisposition="FailComponent">
@@ -696,7 +1348,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ArrTime]"
-                          length="4"
+                          length="8"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]"
                           name="ArrTime"
                           truncationRowDisposition="FailComponent">
@@ -717,7 +1369,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CRSArrTime]"
-                          length="4"
+                          length="8"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSArrTime]"
                           name="CRSArrTime"
                           truncationRowDisposition="FailComponent">
@@ -1197,22 +1849,22 @@
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DepTime]"
                           dataType="wstr"
-                          length="4"
+                          length="8"
                           name="DepTime" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CRSDepTime]"
                           dataType="wstr"
-                          length="4"
+                          length="8"
                           name="CRSDepTime" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ArrTime]"
                           dataType="wstr"
-                          length="4"
+                          length="8"
                           name="ArrTime" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CRSArrTime]"
                           dataType="wstr"
-                          length="4"
+                          length="8"
                           name="CRSArrTime" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[UniqueCarrier]"
@@ -1222,7 +1874,7 @@
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FlightNum]"
                           dataType="wstr"
-                          length="4"
+                          length="6"
                           name="FlightNum" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TailNum]"
@@ -1451,28 +2103,28 @@
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DepTime]"
                           cachedDataType="wstr"
-                          cachedLength="4"
+                          cachedLength="8"
                           cachedName="DepTime"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DepTime]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CRSDepTime]"
                           cachedDataType="wstr"
-                          cachedLength="4"
+                          cachedLength="8"
                           cachedName="CRSDepTime"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRSDepTime]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSDepTime]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ArrTime]"
                           cachedDataType="wstr"
-                          cachedLength="4"
+                          cachedLength="8"
                           cachedName="ArrTime"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ArrTime]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CRSArrTime]"
                           cachedDataType="wstr"
-                          cachedLength="4"
+                          cachedLength="8"
                           cachedName="CRSArrTime"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRSArrTime]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSArrTime]" />
@@ -1651,22 +2303,22 @@
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DepTime]"
                           dataType="wstr"
-                          length="4"
+                          length="8"
                           name="DepTime" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRSDepTime]"
                           dataType="wstr"
-                          length="4"
+                          length="8"
                           name="CRSDepTime" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ArrTime]"
                           dataType="wstr"
-                          length="4"
+                          length="8"
                           name="ArrTime" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRSArrTime]"
                           dataType="wstr"
-                          length="4"
+                          length="8"
                           name="CRSArrTime" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[UniqueCarrier]"
@@ -1800,22 +2452,191 @@
                   </outputs>
                 </component>
                 <component
-                  refId="Package\Foreach Loop Container\Data Flow Task\Remove NA"
+                  refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;"
                   componentClassID="Microsoft.DerivedColumn"
                   contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
                   description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-                  name="Remove NA"
+                  name="Replace &quot;24&quot;"
                   usesDispositions="true">
                   <inputs>
                     <input
-                      refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input]"
+                      refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Inputs[Derived Column Input]"
                       description="Input to the Derived Column Transformation"
                       name="Derived Column Input">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[DepTime]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Inputs[Derived Column Input].Columns[Temp1_DepTime]"
                           cachedDataType="wstr"
-                          cachedLength="4"
+                          cachedLength="6"
+                          cachedName="Temp1_DepTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_DepTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Inputs[Derived Column Input].Columns[Temp1_CRSDepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="6"
+                          cachedName="Temp1_CRSDepTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSDepTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Inputs[Derived Column Input].Columns[Temp1_ArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="6"
+                          cachedName="Temp1_ArrTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_ArrTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Inputs[Derived Column Input].Columns[Temp1_CRSArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="6"
+                          cachedName="Temp1_CRSArrTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSArrTime]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_DepTime]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="6"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_DepTime]"
+                          name="Temp2_DepTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[LEFT](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_DepTime]},2) == "24" ? [REPLACE]([LEFT](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_DepTime]},2),"24","00" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_DepTime]},3,4)) : #{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_DepTime]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">LEFT(Temp1_DepTime,2) == "24" ? REPLACE(LEFT(Temp1_DepTime,2),"24","00" + SUBSTRING(Temp1_DepTime,3,4)) : Temp1_DepTime</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_CRSDepTime]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="6"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_CRSDepTime]"
+                          name="Temp2_CRSDepTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[LEFT](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSDepTime]},2) == "24" ? [REPLACE]([LEFT](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSDepTime]},2),"24","00" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSDepTime]},3,4)) : #{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSDepTime]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">LEFT(Temp1_CRSDepTime,2) == "24" ? REPLACE(LEFT(Temp1_CRSDepTime,2),"24","00" + SUBSTRING(Temp1_CRSDepTime,3,4)) : Temp1_CRSDepTime</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_ArrTime]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="6"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_ArrTime]"
+                          name="Temp2_ArrTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[LEFT](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_ArrTime]},2) == "24" ? [REPLACE]([LEFT](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_ArrTime]},2),"24","00" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_ArrTime]},3,4)) : #{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_ArrTime]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">LEFT(Temp1_ArrTime,2) == "24" ? REPLACE(LEFT(Temp1_ArrTime,2),"24","00" + SUBSTRING(Temp1_ArrTime,3,4)) : Temp1_ArrTime</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_CRSArrTime]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="6"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output].Columns[Temp2_CRSArrTime]"
+                          name="Temp2_CRSArrTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[LEFT](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSArrTime]},2) == "24" ? [REPLACE]([LEFT](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSArrTime]},2),"24","00" + [SUBSTRING](#{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSArrTime]},3,4)) : #{Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output].Columns[Temp1_CRSArrTime]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">LEFT(Temp1_CRSArrTime,2) == "24" ? REPLACE(LEFT(Temp1_CRSArrTime,2),"24","00" + SUBSTRING(Temp1_CRSArrTime,3,4)) : Temp1_CRSArrTime</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Container\Data Flow Task\Replace NA"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Replace NA"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[DepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
                           cachedName="DepTime"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
@@ -1827,19 +2648,19 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]} == "NA" ? NULL(DT_WSTR,8) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(DepTime,"NA","NULL")</property>
+                              name="FriendlyExpression">DepTime == "NA" ? NULL(DT_WSTR,8) : DepTime</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[ArrTime]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[ArrTime]"
                           cachedDataType="wstr"
-                          cachedLength="4"
+                          cachedLength="8"
                           cachedName="ArrTime"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
@@ -1851,17 +2672,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]} == "NA" ? NULL(DT_WSTR,8) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(ArrTime,"NA","NULL")</property>
+                              name="FriendlyExpression">ArrTime == "NA" ? NULL(DT_WSTR,8) : ArrTime</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[TailNum]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[TailNum]"
                           cachedDataType="wstr"
                           cachedLength="10"
                           cachedName="TailNum"
@@ -1875,17 +2696,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TailNum]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TailNum]} == "NA" ? NULL(DT_WSTR,10) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TailNum]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(TailNum,"NA","NULL")</property>
+                              name="FriendlyExpression">TailNum == "NA" ? NULL(DT_WSTR,10) : TailNum</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[ActualElapsedTime]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[ActualElapsedTime]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="ActualElapsedTime"
@@ -1899,17 +2720,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ActualElapsedTime]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ActualElapsedTime]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ActualElapsedTime]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(ActualElapsedTime,"NA","NULL")</property>
+                              name="FriendlyExpression">ActualElapsedTime == "NA" ? NULL(DT_WSTR,4) : ActualElapsedTime</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[CRSElapsedTime]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[CRSElapsedTime]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="CRSElapsedTime"
@@ -1923,17 +2744,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSElapsedTime]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSElapsedTime]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSElapsedTime]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(CRSElapsedTime,"NA","NULL")</property>
+                              name="FriendlyExpression">CRSElapsedTime == "NA" ? NULL(DT_WSTR,4) : CRSElapsedTime</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[AirTime]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[AirTime]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="AirTime"
@@ -1947,17 +2768,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[AirTime]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[AirTime]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[AirTime]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(AirTime,"NA","NULL")</property>
+                              name="FriendlyExpression">AirTime == "NA" ? NULL(DT_WSTR,4) : AirTime</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[ArrDelay]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[ArrDelay]"
                           cachedDataType="wstr"
                           cachedLength="7"
                           cachedName="ArrDelay"
@@ -1971,17 +2792,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrDelay]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrDelay]} == "NA" ? NULL(DT_WSTR,7) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrDelay]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(ArrDelay,"NA","NULL")</property>
+                              name="FriendlyExpression">ArrDelay == "NA" ? NULL(DT_WSTR,7) : ArrDelay</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[DepDelay]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[DepDelay]"
                           cachedDataType="wstr"
                           cachedLength="7"
                           cachedName="DepDelay"
@@ -1995,17 +2816,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepDelay]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepDelay]} == "NA" ? NULL(DT_WSTR,7) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepDelay]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(DepDelay,"NA","NULL")</property>
+                              name="FriendlyExpression">DepDelay == "NA" ? NULL(DT_WSTR,7) : DepDelay</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[Distance]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[Distance]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="Distance"
@@ -2019,17 +2840,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Distance]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Distance]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Distance]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(Distance,"NA","NULL")</property>
+                              name="FriendlyExpression">Distance == "NA" ? NULL(DT_WSTR,4) : Distance</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[TaxiIn]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[TaxiIn]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="TaxiIn"
@@ -2043,17 +2864,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiIn]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiIn]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiIn]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(TaxiIn,"NA","NULL")</property>
+                              name="FriendlyExpression">TaxiIn == "NA" ? NULL(DT_WSTR,4) : TaxiIn</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[TaxiOut]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[TaxiOut]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="TaxiOut"
@@ -2067,17 +2888,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiOut]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiOut]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TaxiOut]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(TaxiOut,"NA","NULL")</property>
+                              name="FriendlyExpression">TaxiOut == "NA" ? NULL(DT_WSTR,4) : TaxiOut</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[CancellationCode]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[CancellationCode]"
                           cachedDataType="wstr"
                           cachedLength="10"
                           cachedName="CancellationCode"
@@ -2091,17 +2912,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CancellationCode]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CancellationCode]} == "NA" ? NULL(DT_WSTR,10) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CancellationCode]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(CancellationCode,"NA","NULL")</property>
+                              name="FriendlyExpression">CancellationCode == "NA" ? NULL(DT_WSTR,10) : CancellationCode</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[CarrierDelay]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[CarrierDelay]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="CarrierDelay"
@@ -2115,17 +2936,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CarrierDelay]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CarrierDelay]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CarrierDelay]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(CarrierDelay,"NA","NULL")</property>
+                              name="FriendlyExpression">CarrierDelay == "NA" ? NULL(DT_WSTR,4) : CarrierDelay</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[WeatherDelay]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[WeatherDelay]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="WeatherDelay"
@@ -2139,17 +2960,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[WeatherDelay]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[WeatherDelay]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[WeatherDelay]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(WeatherDelay,"NA","NULL")</property>
+                              name="FriendlyExpression">WeatherDelay == "NA" ? NULL(DT_WSTR,4) : WeatherDelay</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[NASDelay]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[NASDelay]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="NASDelay"
@@ -2163,17 +2984,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[NASDelay]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[NASDelay]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[NASDelay]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(NASDelay,"NA","NULL")</property>
+                              name="FriendlyExpression">NASDelay == "NA" ? NULL(DT_WSTR,4) : NASDelay</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[SecurityDelay]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[SecurityDelay]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="SecurityDelay"
@@ -2187,17 +3008,17 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[SecurityDelay]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[SecurityDelay]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[SecurityDelay]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(SecurityDelay,"NA","NULL")</property>
+                              name="FriendlyExpression">SecurityDelay == "NA" ? NULL(DT_WSTR,4) : SecurityDelay</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input].Columns[LateAircraftDelay]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input].Columns[LateAircraftDelay]"
                           cachedDataType="wstr"
                           cachedLength="4"
                           cachedName="LateAircraftDelay"
@@ -2211,13 +3032,13 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[REPLACE](#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[SecurityDelay]},"NA","NULL")</property>
+                              name="Expression">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[LateAircraftDelay]} == "NA" ? NULL(DT_WSTR,4) : #{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[LateAircraftDelay]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">REPLACE(SecurityDelay,"NA","NULL")</property>
+                              name="FriendlyExpression">LateAircraftDelay == "NA" ? NULL(DT_WSTR,4) : LateAircraftDelay</property>
                           </properties>
                         </inputColumn>
                       </inputColumns>
@@ -2226,31 +3047,185 @@
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Outputs[Derived Column Output]"
+                      refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Outputs[Derived Column Output]"
                       description="Default Output of the Derived Column Transformation"
                       exclusionGroup="1"
                       name="Derived Column Output"
-                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input]">
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input]">
                       <externalMetadataColumns />
                     </output>
                     <output
-                      refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Outputs[Derived Column Error Output]"
+                      refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Outputs[Derived Column Error Output]"
                       description="Error Output of the Derived Column Transformation"
                       exclusionGroup="1"
                       isErrorOut="true"
                       name="Derived Column Error Output"
-                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input]">
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input]">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                           dataType="i4"
-                          lineageId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          refId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion"
+                  componentClassID="Microsoft.DataConvert"
+                  contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Data Conversion"
+                  name="Time Type Conversion"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Inputs[Data Conversion Input]"
+                      name="Data Conversion Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Inputs[Data Conversion Input].Columns[DepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="DepTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Inputs[Data Conversion Input].Columns[CRSDepTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="CRSDepTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSDepTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Inputs[Data Conversion Input].Columns[ArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="ArrTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Inputs[Data Conversion Input].Columns[CRSArrTime]"
+                          cachedDataType="wstr"
+                          cachedLength="8"
+                          cachedName="CRSArrTime"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSArrTime]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output]"
+                      exclusionGroup="1"
+                      name="Data Conversion Output"
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Inputs[Data Conversion Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output].Columns[DepTime]"
+                          dataType="dbTime"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output].Columns[DepTime]"
+                          name="DepTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[DepTime]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output].Columns[CRSDepTime]"
+                          dataType="dbTime"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output].Columns[CRSDepTime]"
+                          name="CRSDepTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSDepTime]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output].Columns[ArrTime]"
+                          dataType="dbTime"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output].Columns[ArrTime]"
+                          name="ArrTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ArrTime]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output].Columns[CRSArrTime]"
+                          dataType="dbTime"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output].Columns[CRSArrTime]"
+                          name="CRSArrTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[CRSArrTime]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Data Conversion Error Output"
+                      synchronousInputId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Inputs[Data Conversion Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -2262,22 +3237,42 @@
               <paths>
                 <path
                   refId="Package\Foreach Loop Container\Data Flow Task.Paths[Data Conversion Output]"
-                  endId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  endId="Package\Foreach Loop Container\Data Flow Task\Construct String.Inputs[Derived Column Input]"
                   name="Data Conversion Output"
                   startId="Package\Foreach Loop Container\Data Flow Task\Date Type Conversion.Outputs[Data Conversion Output]" />
+                <path
+                  refId="Package\Foreach Loop Container\Data Flow Task.Paths[Data Conversion Output1]"
+                  endId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  name="Data Conversion Output"
+                  startId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Outputs[Data Conversion Output]" />
                 <path
                   refId="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output]"
                   endId="Package\Foreach Loop Container\Data Flow Task\Construct Date.Inputs[Derived Column Input]"
                   name="Derived Column Output"
-                  startId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Outputs[Derived Column Output]" />
+                  startId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output1]"
                   endId="Package\Foreach Loop Container\Data Flow Task\Date Type Conversion.Inputs[Data Conversion Input]"
                   name="Derived Column Output"
                   startId="Package\Foreach Loop Container\Data Flow Task\Construct Date.Outputs[Derived Column Output]" />
                 <path
+                  refId="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output2]"
+                  endId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Inputs[Derived Column Input]"
+                  name="Derived Column Output"
+                  startId="Package\Foreach Loop Container\Data Flow Task\Construct String.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output3]"
+                  endId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Inputs[Derived Column Input]"
+                  name="Derived Column Output"
+                  startId="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output4]"
+                  endId="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion.Inputs[Data Conversion Input]"
+                  name="Derived Column Output"
+                  startId="Package\Foreach Loop Container\Data Flow Task\Construct Time.Outputs[Derived Column Output]" />
+                <path
                   refId="Package\Foreach Loop Container\Data Flow Task.Paths[Flat File Source Output]"
-                  endId="Package\Foreach Loop Container\Data Flow Task\Remove NA.Inputs[Derived Column Input]"
+                  endId="Package\Foreach Loop Container\Data Flow Task\Replace NA.Inputs[Derived Column Input]"
                   name="Flat File Source Output"
                   startId="Package\Foreach Loop Container\Data Flow Task\Flat File Source.Outputs[Flat File Source Output]" />
               </paths>
@@ -2378,53 +3373,59 @@
     design-time-name="Package\Foreach Loop Container\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Replace NA"
+          TopLeft="240,92" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Construct Time"
+          TopLeft="234,425" />
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Date Type Conversion"
+          TopLeft="374,216" />
         <NodeLayout
           Size="171,42"
           Id="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination"
-          TopLeft="76,401" />
+          TopLeft="75,694" />
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;"
+          TopLeft="242,359" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Construct String"
+          TopLeft="234,292" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Construct Date"
+          TopLeft="389,147" />
         <NodeLayout
           Size="151,42"
           Id="Package\Foreach Loop Container\Data Flow Task\Flat File Source"
           TopLeft="89,33" />
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Remove NA"
-          TopLeft="289,117" />
-        <NodeLayout
-          Size="149,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Construct Date"
-          TopLeft="279,188" />
-        <NodeLayout
-          Size="183,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Date Type Conversion"
-          TopLeft="260,260" />
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="164.5,75">
+          TopLeft="240,54">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="191.5,42"
+              EndConnector="66.5,38"
               Start="0,0"
-              End="191.5,34.5">
+              End="66.5,30.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17" />
+                    End="62.5,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,17"
-                    Point2="0,21"
-                    Point3="4,21" />
+                    Point1="62.5,0"
+                    Point2="66.5,0"
+                    Point3="66.5,4" />
                   <mssgle:LineSegment
-                    End="187.5,21" />
-                  <mssgle:CubicBezierSegment
-                    Point1="187.5,21"
-                    Point2="191.5,21"
-                    Point3="191.5,25" />
-                  <mssgle:LineSegment
-                    End="191.5,34.5" />
+                    End="66.5,30.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2434,19 +3435,41 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output]"
-          TopLeft="354.75,159">
+          Id="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output3]"
+          TopLeft="310.25,401">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,29"
+              EndConnector="0,24"
               Start="0,0"
-              End="0,21.5">
+              End="0,16.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.5" />
+                    End="0,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output2]"
+          TopLeft="311.5,334">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,25"
+              Start="0,0"
+              End="0,17.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2457,18 +3480,46 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output1]"
-          TopLeft="352.5,230">
+          TopLeft="464.5,189">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,30"
+              EndConnector="0,27"
               Start="0,0"
-              End="0,22.5">
+              End="0,19.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.5" />
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output]"
+          TopLeft="373,113">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="90.5,34"
+              Start="0,0"
+              End="90.5,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="86.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="86.5,0"
+                    Point2="90.5,0"
+                    Point3="90.5,4" />
+                  <mssgle:LineSegment
+                    End="90.5,26.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2479,37 +3530,97 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Data Conversion Output]"
-          TopLeft="351.5,302">
+          TopLeft="465.5,258">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-190,99"
+              EndConnector="-154,34"
               Start="0,0"
-              End="-190,91.5">
+              End="-154,26.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,45.5" />
+                    End="0,13" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,45.5"
-                    Point2="0,49.5"
-                    Point3="-4,49.5" />
+                    Point1="0,13"
+                    Point2="0,17"
+                    Point3="-4,17" />
                   <mssgle:LineSegment
-                    End="-186,49.5" />
+                    End="-150,17" />
                   <mssgle:CubicBezierSegment
-                    Point1="-186,49.5"
-                    Point2="-190,49.5"
-                    Point3="-190,53.5" />
+                    Point1="-150,17"
+                    Point2="-154,17"
+                    Point3="-154,21" />
                   <mssgle:LineSegment
-                    End="-190,91.5" />
+                    End="-154,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="184,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion"
+          TopLeft="214,494" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output4]"
+          TopLeft="307.5,467">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach Loop Container\Data Flow Task.Paths[Data Conversion Output1]"
+          TopLeft="306,536">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-145.5,158"
+              Start="0,0"
+              End="-145.5,150.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,75"
+                    Point2="0,79"
+                    Point3="-4,79" />
+                  <mssgle:LineSegment
+                    End="-141.5,79" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-141.5,79"
+                    Point2="-145.5,79"
+                    Point3="-145.5,83" />
+                  <mssgle:LineSegment
+                    End="-145.5,150.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-103,54.5,16,16"
+              BoundingBox="-80.75,84,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
