@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_FactFlights"
   DTS:PackageType="5"
-  DTS:VersionBuild="222"
-  DTS:VersionGUID="{1ECAB7C0-3318-4702-A7D8-F840073F12BE}">
+  DTS:VersionBuild="223"
+  DTS:VersionGUID="{205C619E-5ACF-4180-B83B-573AE91E2945}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -4035,49 +4035,77 @@ where [refTable].[Code] = ?</property>
           Id="Package\Foreach Loop Container\Data Flow Task\Construct Time"
           TopLeft="234,425" />
         <NodeLayout
-          Size="173,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Lookup Dest Airport"
-          TopLeft="403,632" />
-        <NodeLayout
-          Size="151,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Flat File Source"
-          TopLeft="89,33" />
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Replace NA"
-          TopLeft="240,92" />
+          Size="171,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination"
+          TopLeft="80,863.333333333333" />
         <NodeLayout
           Size="180,42"
           Id="Package\Foreach Loop Container\Data Flow Task\Lookup Origin Airport"
           TopLeft="400,559" />
         <NodeLayout
-          Size="184,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion"
-          TopLeft="214,494" />
+          Size="151,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Flat File Source"
+          TopLeft="89,33" />
         <NodeLayout
-          Size="155,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Construct String"
-          TopLeft="234,292" />
+          Size="183,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Lookup Plane Tailnum"
+          TopLeft="397,782" />
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Replace NA"
+          TopLeft="240,92" />
         <NodeLayout
           Size="139,42"
           Id="Package\Foreach Loop Container\Data Flow Task\Replace &quot;24&quot;"
           TopLeft="242,359" />
         <NodeLayout
-          Size="171,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination"
-          TopLeft="80,863.333333333333" />
+          Size="155,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Construct String"
+          TopLeft="234,292" />
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Date Type Conversion"
+          TopLeft="395.666666666667,226" />
         <NodeLayout
           Size="184,42"
           Id="Package\Foreach Loop Container\Data Flow Task\Lookup Unique Carrier"
           TopLeft="396,707" />
         <NodeLayout
+          Size="173,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Lookup Dest Airport"
+          TopLeft="403,632" />
+        <NodeLayout
+          Size="184,42"
+          Id="Package\Foreach Loop Container\Data Flow Task\Time Type Conversion"
+          TopLeft="214,494" />
+        <NodeLayout
           Size="149,42"
           Id="Package\Foreach Loop Container\Data Flow Task\Construct Date"
           TopLeft="414.666666666666,159.666666666667" />
-        <NodeLayout
-          Size="183,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Date Type Conversion"
-          TopLeft="395.666666666667,226" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container\Data Flow Task.Paths[Lookup Match Output2]"
+          TopLeft="488.25,749">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33"
+              Start="0,0"
+              End="0,25.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,6.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Lookup Match Output1]"
           TopLeft="488.75,674">
@@ -4344,34 +4372,6 @@ where [refTable].[Code] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="183,42"
-          Id="Package\Foreach Loop Container\Data Flow Task\Lookup Plane Tailnum"
-          TopLeft="397,782" />
-        <EdgeLayout
-          Id="Package\Foreach Loop Container\Data Flow Task.Paths[Lookup Match Output2]"
-          TopLeft="488.25,749">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33"
-              Start="0,0"
-              End="0,25.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,6.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Lookup Match Output3]"
           TopLeft="488.5,824">
@@ -4425,29 +4425,6 @@ where [refTable].[Code] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Foreach Loop Container\Data Flow Task\Lookup Unique Carrier">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimCarrier]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Foreach Loop Container\Data Flow Task\Lookup Origin Airport">
     <Properties>
       <Property>
@@ -4459,6 +4436,52 @@ where [refTable].[Code] = ?</property>
         <Name>UsedTableName</Name>
         <Value
           type="q3:string">[dbo].[DimAirport]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Foreach Loop Container\Data Flow Task\Lookup Plane Tailnum">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimPlane]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Foreach Loop Container\Data Flow Task\Lookup Unique Carrier">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimCarrier]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
@@ -4487,29 +4510,6 @@ where [refTable].[Code] = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Foreach Loop Container\Data Flow Task\Lookup Plane Tailnum">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimPlane]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
