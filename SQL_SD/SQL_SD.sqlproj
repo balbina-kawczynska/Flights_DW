@@ -74,7 +74,4 @@
     <Build Include="dbo\Stored Procedures\DimCarrier_InsertUnknown.sql" />
     <Build Include="dbo\Stored Procedures\DimAirport_InsertUnknown.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="SQL_SD.refactorlog" />
-  </ItemGroup>
 </Project>
