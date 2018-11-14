@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="aa296f3f-8e00-425c-9103-313b11773e35" ChangeDateTime="11/13/2018 20:46:51">
+    <Property Name="ElementName" Value="[dbo].[DimPlane].[Tailnum]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DimPlane]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TailNum" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ad7cf7c2-d4be-4148-a927-e8af95cb4c7d" ChangeDateTime="11/13/2018 21:34:15">
+    <Property Name="ElementName" Value="[dbo].[FK_FactFlights_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[FactFlights]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_FactFlights_DimDate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="515ae0e4-36e2-4fc8-8240-ee1b9a4dafae" ChangeDateTime="11/13/2018 22:07:51">
+    <Property Name="ElementName" Value="[dbo].[AK_DimPlane_Tailnum]" />
+    <Property Name="ElementType" Value="SqlUniqueConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[DimPlane]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[AK_DimPlane_TailNum]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2f45750b-5890-434a-a47e-ba3607b3a6b4" ChangeDateTime="11/14/2018 10:34:43">
+    <Property Name="ElementName" Value="[dbo].[DimPlane].[Tailnum]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DimPlane]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TailNum" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="000f9c26-31d9-41fe-802c-fa03bbb76896" ChangeDateTime="11/14/2018 11:21:21">
+    <Property Name="ElementName" Value="[dbo].[DimPlane].[Tailnum]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DimPlane]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TailNum" />
+  </Operation>
+</Operations>

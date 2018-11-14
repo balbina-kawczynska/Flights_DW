@@ -8,7 +8,7 @@
     [CRSDepTime]        NVARCHAR (8)  NULL,
     [ArrTime]           NVARCHAR (8)  NULL,
     [CRSArrTime]        NVARCHAR (8)  NULL,
-    [UniqueCarrier]     NVARCHAR (7)  NULL DEFAULT -1,
+    [UniqueCarrier]     NVARCHAR (10) NULL DEFAULT -1,
     [FlightNum]         NVARCHAR (6)  NULL,
     [TailNum]           NVARCHAR (10) NULL DEFAULT -1,
     [ActualElapsedTime] NVARCHAR (4)  NULL,
