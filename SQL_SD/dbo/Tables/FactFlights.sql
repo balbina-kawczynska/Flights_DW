@@ -16,7 +16,7 @@
     [AirTime]           NVARCHAR (4)  NULL,
     [ArrDelay]          NVARCHAR (7)  NULL,
     [DepDelay]          NVARCHAR (7)  NULL,
-    [Origin]            NVARCHAR (5)  NULL DEFAULT -1,
+    [Origin]            NVARCHAR (7)  NULL DEFAULT -1,
     [Dest]              NVARCHAR (7)  NULL DEFAULT -1,
     [Distance]          NVARCHAR (4)  NULL,
     [TaxiIn]            NVARCHAR (4)  NULL,
