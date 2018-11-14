@@ -62,7 +62,6 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
-    <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DimDate.sql" />
@@ -74,6 +73,8 @@
     <Build Include="dbo\Stored Procedures\DimDate_Populate.sql" />
     <Build Include="dbo\Stored Procedures\DimCarrier_InsertUnknown.sql" />
     <Build Include="dbo\Stored Procedures\DimAirport_InsertUnknown.sql" />
-    <Build Include="Security\raporty.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="SQL_SD.refactorlog" />
   </ItemGroup>
 </Project>

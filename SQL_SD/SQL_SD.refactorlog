@@ -28,4 +28,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="TailNum" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="000f9c26-31d9-41fe-802c-fa03bbb76896" ChangeDateTime="11/14/2018 11:21:21">
+    <Property Name="ElementName" Value="[dbo].[DimPlane].[Tailnum]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DimPlane]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TailNum" />
+  </Operation>
 </Operations>
