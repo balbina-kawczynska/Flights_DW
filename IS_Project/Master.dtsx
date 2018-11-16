@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Master"
   DTS:PackageType="5"
-  DTS:VersionBuild="41"
-  DTS:VersionGUID="{5AC4B7B9-8F2C-4EB6-B138-33BD59101402}">
+  DTS:VersionBuild="43"
+  DTS:VersionGUID="{F0CBB8DB-95CC-49D7-B204-8675A7915E4A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -150,14 +150,14 @@
           Id="Package\Execute dimensions packages\Execute Package DimDate"
           TopLeft="57,25" />
         <NodeLayout
-          Size="216,42"
+          Size="206,42"
           Id="Package\Execute dimensions packages\Execute Package DimPlane"
           TopLeft="317,103" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="589,172"
-          Size="589,215"
+          PanelSize="589,200"
+          Size="589,243"
           Id="Package\Execute dimensions packages"
           TopLeft="72,43" />
         <NodeLayout

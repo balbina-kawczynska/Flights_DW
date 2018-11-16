@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_FactFlights"
   DTS:PackageType="5"
-  DTS:VersionBuild="233"
-  DTS:VersionGUID="{3341F6EC-172B-413E-BBE1-B2CC21CF699E}">
+  DTS:VersionBuild="235"
+  DTS:VersionGUID="{C8E21F5F-490D-420B-8117-9CA0E442DD8A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -4092,7 +4092,7 @@ where [refTable].[Code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-218.8100390625,24.6666666666665,114.120078125,16"
+              BoundingBox="-209.94138671875,24.6666666666665,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
