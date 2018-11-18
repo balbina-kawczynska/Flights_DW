@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimAirport"
   DTS:PackageType="5"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{11A23C2E-D5AE-49B5-B5B3-74AD31169315}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{74F96B80-709E-4E72-AD53-740A9E9677D2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -29,6 +29,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <pipeline
+          autoAdjustBufferSize="true"
           version="1">
           <components>
             <component
