@@ -11,11 +11,188 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Master"
   DTS:PackageType="5"
-  DTS:VersionBuild="43"
-  DTS:VersionGUID="{F0CBB8DB-95CC-49D7-B204-8675A7915E4A}">
+  DTS:VersionBuild="44"
+  DTS:VersionGUID="{1E930592-C2BC-4420-B680-28BA61412093}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DimAirportLog]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{44399040-FF3F-4478-BA1E-4B8339C2C21F}"
+      DTS:ObjectName="DimAirportLog">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="1"
+          DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\IS_Project\logs\DimAirportLog" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DimCarrierLog]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{5AF6672E-3CFC-4706-98B3-29B9437526DE}"
+      DTS:ObjectName="DimCarrierLog">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="1"
+          DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\IS_Project\logs\DimCarrierLog" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DimDateLog]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{E8BBFD76-4880-4C77-821F-84D8F64BC2EE}"
+      DTS:ObjectName="DimDateLog">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="1"
+          DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\IS_Project\logs\DimDateLog" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DimPlaneLog]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{EFA195A4-9C34-420A-91E6-6678E6C2B070}"
+      DTS:ObjectName="DimPlaneLog">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="1"
+          DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\IS_Project\logs\DimPlaneLog" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FactFlightsLog]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{DFA21BB9-E9AF-4FA6-A7DE-C4372710F9E1}"
+      DTS:ObjectName="FactFlightsLog">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="1"
+          DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\IS_Project\logs\FactFlightsLog" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[MasterLog]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{79F6AF14-DB95-43FF-9F63-9AE1AB35146B}"
+      DTS:ObjectName="MasterLog">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="1"
+          DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\IS_Project\logs\MasterLog" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:LogProviders>
+    <DTS:LogProvider
+      DTS:ConfigString="DimAirportLog"
+      DTS:CreationName="Microsoft.LogProviderTextFile"
+      DTS:Description="Writes log entries for events of DimAirport package to a CSV file"
+      DTS:DTSID="{B644644D-8EDF-403E-9E7E-B056C58A742B}"
+      DTS:ObjectName="DimAirportLog">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+    <DTS:LogProvider
+      DTS:ConfigString="DimCarrierLog"
+      DTS:CreationName="Microsoft.LogProviderTextFile"
+      DTS:Description="Writes log entries for events of DimCarrier package to a CSV file"
+      DTS:DTSID="{4D725AF3-84E4-4170-A07C-92E7B2DA6E7E}"
+      DTS:ObjectName="DimCarrierLog">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+    <DTS:LogProvider
+      DTS:ConfigString="DimDateLog"
+      DTS:CreationName="Microsoft.LogProviderTextFile"
+      DTS:Description="Writes log entries for events of DimDate package to a CSV file"
+      DTS:DTSID="{04874826-0A02-4971-8110-F3968969F664}"
+      DTS:ObjectName="DimDateLog">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+    <DTS:LogProvider
+      DTS:ConfigString="DimPlaneLog"
+      DTS:CreationName="Microsoft.LogProviderTextFile"
+      DTS:Description="Writes log entries for events of DimPlane package to a CSV file"
+      DTS:DTSID="{7A4BE0F9-B07F-41F3-854C-CF776F49351B}"
+      DTS:ObjectName="DimPlaneLog">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+    <DTS:LogProvider
+      DTS:ConfigString="FactFlightsLog"
+      DTS:CreationName="Microsoft.LogProviderTextFile"
+      DTS:Description="Writes log entries for events of FactFlights package to a CSV file"
+      DTS:DTSID="{982D3BC2-3A2D-4B32-BB2E-2196ACE04F7B}"
+      DTS:ObjectName="FactFlightsLog">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+    <DTS:LogProvider
+      DTS:ConfigString="MasterLog"
+      DTS:CreationName="Microsoft.LogProviderTextFile"
+      DTS:Description="Writes log entries for events of Master package to a CSV file"
+      DTS:DTSID="{76209625-BD34-4835-941D-3D7E6198C9F2}"
+      DTS:ObjectName="MasterLog">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+  </DTS:LogProviders>
   <DTS:Variables />
+  <DTS:LoggingOptions
+    DTS:FilterKind="0"
+    DTS:LoggingMode="1">
+    <DTS:Property
+      DTS:DataType="8"
+      DTS:Name="EventFilter">2,7,OnError,13,OnInformation</DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnError"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">-1</DTS:Property>
+    </DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnInformation"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">-1</DTS:Property>
+    </DTS:Property>
+    <DTS:SelectedLogProviders>
+      <DTS:SelectedLogProvider
+        DTS:InstanceID="{76209625-BD34-4835-941D-3D7E6198C9F2}" />
+    </DTS:SelectedLogProviders>
+  </DTS:LoggingOptions>
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\Execute dimensions packages"
@@ -26,6 +203,9 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute dimensions packages">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0"
+        DTS:LoggingMode="1" />
       <DTS:Executables>
         <DTS:Executable
           DTS:refId="Package\Execute dimensions packages\Execute Package DimAirport"
@@ -37,6 +217,13 @@
           DTS:ObjectName="Execute Package DimAirport"
           DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
           <DTS:Variables />
+          <DTS:LoggingOptions
+            DTS:FilterKind="0">
+            <DTS:SelectedLogProviders>
+              <DTS:SelectedLogProvider
+                DTS:InstanceID="{B644644D-8EDF-403E-9E7E-B056C58A742B}" />
+            </DTS:SelectedLogProviders>
+          </DTS:LoggingOptions>
           <DTS:ObjectData>
             <ExecutePackageTask>
               <UseProjectReference>True</UseProjectReference>
@@ -54,6 +241,13 @@
           DTS:ObjectName="Execute Package DimCarrier"
           DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
           <DTS:Variables />
+          <DTS:LoggingOptions
+            DTS:FilterKind="0">
+            <DTS:SelectedLogProviders>
+              <DTS:SelectedLogProvider
+                DTS:InstanceID="{4D725AF3-84E4-4170-A07C-92E7B2DA6E7E}" />
+            </DTS:SelectedLogProviders>
+          </DTS:LoggingOptions>
           <DTS:ObjectData>
             <ExecutePackageTask>
               <UseProjectReference>True</UseProjectReference>
@@ -71,6 +265,13 @@
           DTS:ObjectName="Execute Package DimDate"
           DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
           <DTS:Variables />
+          <DTS:LoggingOptions
+            DTS:FilterKind="0">
+            <DTS:SelectedLogProviders>
+              <DTS:SelectedLogProvider
+                DTS:InstanceID="{04874826-0A02-4971-8110-F3968969F664}" />
+            </DTS:SelectedLogProviders>
+          </DTS:LoggingOptions>
           <DTS:ObjectData>
             <ExecutePackageTask>
               <UseProjectReference>True</UseProjectReference>
@@ -88,6 +289,13 @@
           DTS:ObjectName="Execute Package DimPlane"
           DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
           <DTS:Variables />
+          <DTS:LoggingOptions
+            DTS:FilterKind="0">
+            <DTS:SelectedLogProviders>
+              <DTS:SelectedLogProvider
+                DTS:InstanceID="{7A4BE0F9-B07F-41F3-854C-CF776F49351B}" />
+            </DTS:SelectedLogProviders>
+          </DTS:LoggingOptions>
           <DTS:ObjectData>
             <ExecutePackageTask>
               <UseProjectReference>True</UseProjectReference>
@@ -107,6 +315,13 @@
       DTS:ObjectName="Execute Package FactFlights"
       DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0">
+        <DTS:SelectedLogProviders>
+          <DTS:SelectedLogProvider
+            DTS:InstanceID="{982D3BC2-3A2D-4B32-BB2E-2196ACE04F7B}" />
+        </DTS:SelectedLogProviders>
+      </DTS:LoggingOptions>
       <DTS:ObjectData>
         <ExecutePackageTask>
           <UseProjectReference>True</UseProjectReference>
