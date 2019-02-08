@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimPlane"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{B8C7851B-59C3-4121-929D-C32A46E3DB0E}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{54340B0F-FA2A-46A8-A4CC-33BD9581EE13}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />

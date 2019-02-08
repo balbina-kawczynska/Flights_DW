@@ -3,10 +3,6 @@
   DTS:ObjectName="DBconnect"
   DTS:DTSID="{FA0E0EFD-2792-447E-92FC-032801FB0595}"
   DTS:CreationName="OLEDB">
-  <DTS:PropertyExpression
-    DTS:Name="InitialCatalog">@[$Project::SQLServerDBName]</DTS:PropertyExpression>
-  <DTS:PropertyExpression
-    DTS:Name="ServerName">@[$Project::SQLServerName]</DTS:PropertyExpression>
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectionString="Data Source=DESKTOP-VSOL9E4;Initial Catalog=SQL_SD;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
