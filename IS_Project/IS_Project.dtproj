@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-VSOL9E4</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4IRT5UzpCU+EcdjZoSFLPwAAAAACAAAAAAADZgAAwAAAABAAAACHCkphBysLb7nU62Y4MteZAAAAAASAAACgAAAAEAAAAJguiptCF1/GKy/h7Q05AdWIAAAAtCNgBV1hXFCXRD1Rf7QrqK5wddqwzCwneAGF/l24f0XX9RHDF4Xwu5uzL5Cnw1YzBKxQecq5sD5MN+4NZ6V3Bq3KIm8aS92K0K2gKG1MNCBUomML8I4IJo/h9eHbCQh1Zn/GZnMJWREYZ9dBLkBynX+K8rEtbEIe9vQo7ESkVkQGFqS8FSE8JxQAAAD/lAwtHk7fWYYhvOyBQWOeGwByRQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9knDxiqLtUSvoyQzVXxHJQAAAAACAAAAAAADZgAAwAAAABAAAADlKOm5JxKTp6AR5tAyvZNXAAAAAASAAACgAAAAEAAAAG+VhMblUu32Euo8lPUC/AGIAAAAHWD545Zk5CQtyobihGvleMjndZunZvQGm63kvteCDWpMgHupv+46ps1ShJtwzakQKf0V/iktu7cERQqkv/8rVS/A8/4lVBOcsgGvNi/vxEw+1sKupcbjHmwK2KW50n/JxXqXp1AoqOQVbe4jcveVV7fT2bwdtXWvc6VQPPiXHGOopg+I115cgxQAAACFmx+b5z/hjklbj5MY03jjnJYsqg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -56,7 +56,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=PK6-06;Initial Catalog=SQL_SD;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=R-09;Initial Catalog=SQL_SD;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -115,7 +115,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">PK6-06</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">R-09</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -189,7 +189,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\airports.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\airports.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -371,7 +371,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\carriers.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\carriers.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -553,7 +553,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\plane-data.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\plane-data.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -687,10 +687,10 @@
                 <SSIS:Property SSIS:Name="Name">Master</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">48</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">49</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{4D80AC53-04F3-4F93-969D-A617997E81D3}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{ECCBB9FE-7212-4A12-AB3A-B9F3EB790085}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -788,10 +788,10 @@
                 <SSIS:Property SSIS:Name="Name">Package_FactFlights</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">241</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">244</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E734032B-5886-426C-AFDC-C24ABEDB11CB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{13FFDD60-E595-4F9F-A4D6-C4AA8657308F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -808,7 +808,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

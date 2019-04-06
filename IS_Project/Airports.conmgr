@@ -13,7 +13,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\airports.csv">
+      DTS:ConnectionString="C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\airports.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -22,7 +22,7 @@
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="iata"
-          DTS:DTSID="{E0A6E93B-0B3E-49B2-8041-92F2B2F957A5}"
+          DTS:DTSID="{9B99303A-AC97-4E8D-B464-8C39FD7C0931}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="airport"
-          DTS:DTSID="{86B98F47-72B5-4A1B-A015-B8704899D40B}"
+          DTS:DTSID="{B0949B06-DA8D-4D2B-950A-B266271A68BD}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -40,7 +40,7 @@
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="city"
-          DTS:DTSID="{CB6F3D38-403A-4697-BFCD-446D99C9D328}"
+          DTS:DTSID="{4137B7FD-939E-4CAF-B78D-DE8124B5A439}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -49,7 +49,7 @@
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="state"
-          DTS:DTSID="{F68D4948-4F16-4CB3-9230-B3281098A124}"
+          DTS:DTSID="{D9664ABB-A5B8-45C8-B7B5-F2D255BD70D5}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -58,7 +58,7 @@
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="country"
-          DTS:DTSID="{08EA4BF7-F09C-4462-92C0-493B76942565}"
+          DTS:DTSID="{E210DD4C-1449-463B-9AAF-62B93B66D468}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -68,7 +68,7 @@
           DTS:DataScale="10"
           DTS:TextQualified="True"
           DTS:ObjectName="lat"
-          DTS:DTSID="{CC3E6A42-11BD-4CC0-8D6B-DD3E42797B2B}"
+          DTS:DTSID="{F88F1DB6-808A-4337-A9E0-B782047BF709}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -78,7 +78,7 @@
           DTS:DataScale="10"
           DTS:TextQualified="True"
           DTS:ObjectName="long"
-          DTS:DTSID="{D65ADACF-D873-4B65-8453-4D8CA6E22849}"
+          DTS:DTSID="{B20D3C77-F7C2-475E-8C16-69D5B8E69FBB}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

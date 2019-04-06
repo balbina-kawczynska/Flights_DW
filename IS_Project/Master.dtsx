@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Master"
   DTS:PackageType="5"
-  DTS:VersionBuild="48"
-  DTS:VersionGUID="{4D80AC53-04F3-4F93-969D-A617997E81D3}">
+  DTS:VersionBuild="49"
+  DTS:VersionGUID="{ECCBB9FE-7212-4A12-AB3A-B9F3EB790085}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -226,7 +226,7 @@
           Id="Package\Execute dimensions packages\Execute Package DimAirport"
           TopLeft="56,101" />
         <NodeLayout
-          Size="218,42"
+          Size="224,42"
           Id="Package\Execute dimensions packages\Execute Package DimCarrier"
           TopLeft="317,25" />
         <NodeLayout
@@ -234,7 +234,7 @@
           Id="Package\Execute dimensions packages\Execute Package DimDate"
           TopLeft="57,25" />
         <NodeLayout
-          Size="206,42"
+          Size="216,42"
           Id="Package\Execute dimensions packages\Execute Package DimPlane"
           TopLeft="317,103" />
         <ContainerLayout
@@ -245,23 +245,23 @@
           Id="Package\Execute dimensions packages"
           TopLeft="72,43" />
         <NodeLayout
-          Size="212,42"
+          Size="224,42"
           Id="Package\Execute Package FactFlights"
-          TopLeft="265,326" />
+          TopLeft="262,326" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="368.75,258">
+          TopLeft="370.25,286">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,68"
+              EndConnector="0,40"
               Start="0,0"
-              End="0,60.5">
+              End="0,32.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.5" />
+                    End="0,32.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

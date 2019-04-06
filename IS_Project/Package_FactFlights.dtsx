@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_FactFlights"
   DTS:PackageType="5"
-  DTS:VersionBuild="241"
-  DTS:VersionGUID="{E734032B-5886-426C-AFDC-C24ABEDB11CB}">
+  DTS:VersionBuild="245"
+  DTS:VersionGUID="{12B00C6D-0D38-40AC-B30A-865E1CD08E43}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -32,7 +32,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts\">
+          DTS:ConnectionString="C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts\">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -41,7 +41,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Year"
-              DTS:DTSID="{4759F110-F602-413C-8334-EF94FF7088DA}"
+              DTS:DTSID="{A1B93AF9-E766-4407-A89D-46DC5C31CCC5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -50,7 +50,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Month"
-              DTS:DTSID="{D0651F17-803F-41C2-AAE2-645D314D89DD}"
+              DTS:DTSID="{37D7D90B-5869-4BF2-B7B7-025C43ADFB1F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -59,7 +59,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DayofMonth"
-              DTS:DTSID="{7405D915-468C-4035-B153-2DB703730466}"
+              DTS:DTSID="{648F5BB1-C757-4797-BCB3-2EF08AF3FD31}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -68,7 +68,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DayOfWeek"
-              DTS:DTSID="{E73D4BC6-37AE-4C1F-B8CC-28FFD0ADE453}"
+              DTS:DTSID="{A26BDDDF-0D42-4C72-B117-67162C47A458}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +77,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DepTime"
-              DTS:DTSID="{47594D6F-6868-4D0A-B70F-B4717242D0F7}"
+              DTS:DTSID="{7F87429C-A067-4436-B1DC-F233E2CB504F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -86,7 +86,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSDepTime"
-              DTS:DTSID="{A11930CA-5652-470B-9EB7-BC89736B90A7}"
+              DTS:DTSID="{25BDD4C8-DBBF-481E-9FE4-9E651C2EB532}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -95,7 +95,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ArrTime"
-              DTS:DTSID="{3277E150-815E-489C-A87C-55C4C325F1F0}"
+              DTS:DTSID="{F4D88E06-7A57-4AAA-AD61-DA9B81F1C66C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -104,7 +104,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSArrTime"
-              DTS:DTSID="{3DB8D760-8E17-4766-BB8D-6D5D33AF4A95}"
+              DTS:DTSID="{F2F461E7-DC74-4FF2-A857-630E8CC156B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -113,7 +113,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="UniqueCarrier"
-              DTS:DTSID="{241B0C83-AD56-454C-8858-1DC6A462F88B}"
+              DTS:DTSID="{B8CCFD92-FE79-439E-8CB1-92AF0AA9FE6E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -122,7 +122,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="FlightNum"
-              DTS:DTSID="{8BC7E9FF-D6EE-40A4-9304-8488C1A0A1E1}"
+              DTS:DTSID="{244D4BCB-4C85-42C7-BC8E-276C10EDE07D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -131,7 +131,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TailNum"
-              DTS:DTSID="{AA596491-B362-48D3-A9A7-4C44E66CF914}"
+              DTS:DTSID="{C09B3794-61DF-40E8-A852-7F7B3E701478}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -140,7 +140,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ActualElapsedTime"
-              DTS:DTSID="{520E8E31-A1F5-4B37-976E-343E7F51C775}"
+              DTS:DTSID="{795D80E8-F5D1-46ED-AA57-F30032922D1C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -149,7 +149,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CRSElapsedTime"
-              DTS:DTSID="{8038C57B-08F4-4838-93B5-490362483A8A}"
+              DTS:DTSID="{9B467D4D-8133-4D20-927E-2762D791981E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -158,7 +158,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AirTime"
-              DTS:DTSID="{8EB8D5A9-6F43-49CF-9247-BB1E30CF0F23}"
+              DTS:DTSID="{9D69AA7F-E1AB-4D8D-96D3-754A90709591}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -167,7 +167,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ArrDelay"
-              DTS:DTSID="{DD8636BD-C24E-4C98-99D2-95ED424FD13C}"
+              DTS:DTSID="{B2C0E8EA-A76C-4507-A1C6-85BED9CCDBD1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -176,7 +176,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DepDelay"
-              DTS:DTSID="{87DDF971-1CF5-4F04-B4BA-064FF0D384F8}"
+              DTS:DTSID="{E4F4DCEB-9220-4D4D-923B-2B208EEBE863}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -185,7 +185,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Origin"
-              DTS:DTSID="{DF45A7C5-005E-4317-9FA2-A6D9CBDCCC0E}"
+              DTS:DTSID="{011C6A11-9B14-4790-B25F-D0CE72EB8FD7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -194,7 +194,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Dest"
-              DTS:DTSID="{F95D87F4-302D-4242-8A6F-0E96606E38EF}"
+              DTS:DTSID="{12967227-ECC7-4923-9A23-7E0927C868BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -203,7 +203,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Distance"
-              DTS:DTSID="{CE75CF4B-2553-4567-AF8F-E0A719020C74}"
+              DTS:DTSID="{0DE606A5-72E2-4C6F-8B05-0C805119A119}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -212,7 +212,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TaxiIn"
-              DTS:DTSID="{41A31C7C-6E1D-4E34-B6BE-A12B0B5CD3D2}"
+              DTS:DTSID="{AC5F9FDB-6746-4B7A-996F-E0ECB655DE5C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -221,7 +221,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="TaxiOut"
-              DTS:DTSID="{BCBD6CC1-85A4-40D4-8F7F-074165B63D52}"
+              DTS:DTSID="{42AAD0B7-CAFE-4854-AFFD-33BE89AB7E7B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -229,7 +229,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Cancelled"
-              DTS:DTSID="{A27453BE-304B-43C8-A2A2-8D73C59ED55F}"
+              DTS:DTSID="{C2DB6967-AEB6-425B-97B8-159C75277CD3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -238,7 +238,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CancellationCode"
-              DTS:DTSID="{30148063-C449-4E2C-AF6C-20881E0A886F}"
+              DTS:DTSID="{8F1A8A79-98ED-423E-A4C5-2571C5C21046}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -246,7 +246,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Diverted"
-              DTS:DTSID="{96FA1692-9C8A-4FF9-9525-EF25F368E839}"
+              DTS:DTSID="{D20F24EC-2BDC-467B-B69D-524E1221A9CE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -255,7 +255,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CarrierDelay"
-              DTS:DTSID="{E7D1BF4E-6F96-4953-9849-9C552E485EB2}"
+              DTS:DTSID="{B84DA091-653A-455F-8CC7-C1AE0A2FB0F8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -264,7 +264,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="WeatherDelay"
-              DTS:DTSID="{C835E9D4-73C8-4481-B1C2-18742A10AB5D}"
+              DTS:DTSID="{CABF5D8F-891A-41D9-803B-0D0BFCEC396D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -273,7 +273,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="NASDelay"
-              DTS:DTSID="{4837FEF8-0E20-4D9E-B719-51F3935442DE}"
+              DTS:DTSID="{688BC803-3635-4766-8119-2CE6BF0CF7A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -282,7 +282,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SecurityDelay"
-              DTS:DTSID="{D51E5862-A291-48B0-AF1A-9DF43FCBD7EB}"
+              DTS:DTSID="{67F10225-D451-4DFE-87B0-306A2CD2CF2B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -291,7 +291,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="LateAircraftDelay"
-              DTS:DTSID="{640F0EE6-6650-49C7-8442-F53270F0A66F}"
+              DTS:DTSID="{E6FD97C1-0C5A-4BEA-A94C-B28741E6E16D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -306,7 +306,7 @@
       DTS:ObjectName="FolderPath">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables>
@@ -327,7 +327,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="FolderPath">
       <DTS:VariableValue
-        DTS:DataType="8">D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -348,7 +348,7 @@
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts" />
+              Folder="C:\Users\balbina.kawczynska\Downloads\Flights_DW-master\facts" />
             <FEFEProperty
               FileSpec="*.csv" />
             <FEFEProperty
@@ -372,7 +372,6 @@
           <DTS:Variables />
           <DTS:ObjectData>
             <pipeline
-              autoAdjustBufferSize="true"
               version="1">
               <components>
                 <component
@@ -3686,7 +3685,7 @@ where [refTable].[Code] = ?</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151,42"
+          Size="155,42"
           Id="Package\Foreach Loop Container\Data Flow Task"
           TopLeft="36,30" />
         <ContainerLayout
