@@ -63,6 +63,8 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Security\" />
+    <Folder Include="raporty\" />
+    <Folder Include="raporty\Views\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DimDate.sql" />
@@ -75,5 +77,12 @@
     <Build Include="dbo\Stored Procedures\DimCarrier_InsertUnknown.sql" />
     <Build Include="dbo\Stored Procedures\DimAirport_InsertUnknown.sql" />
     <Build Include="Security\raporty.sql" />
+    <Build Include="raporty\Views\Rank_Of_Flights_Per_Carrier.sql" />
+    <Build Include="raporty\Views\Percent_Of_Delayed_Flights_Per_Manufacturer.sql" />
+    <Build Include="raporty\Views\Percent_Of_Delayed_Flights_Per_Airport.sql" />
+    <Build Include="raporty\Views\Percent_Of_Cancelled_Flights_Per_Manufacturer.sql" />
+    <Build Include="raporty\Views\Percent_Of_Cancelled_Flights_Per_Airport.sql" />
+    <Build Include="raporty\Views\AVG_Departure_Delay_Per_Manufacturer.sql" />
+    <Build Include="raporty\Views\AVG_Departure_Delay_Per_Airport.sql" />
   </ItemGroup>
 </Project>
