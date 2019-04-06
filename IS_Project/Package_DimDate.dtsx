@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-VSOL9E4\Lilib"
   DTS:DTSID="{692B7CF1-89ED-4007-9694-EA507E81BEE1}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.3002.106"
+  DTS:LastModifiedProductVersion="15.0.0900.40"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimDate"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{D0638CD0-311C-48DE-AD39-39D74824296C}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{B4E20C39-BE08-4649-9BB3-6327D0B1DA77}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -31,7 +31,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FA0E0EFD-2792-447E-92FC-032801FB0595}"
-          SQLTask:SqlStatementSource="WAITFOR DELAY '000:00:05'&#xA;&#xA;EXEC [DimDate_Populate];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="EXEC [DimDate_Populate];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable

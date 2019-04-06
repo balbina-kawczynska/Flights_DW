@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-VSOL9E4\Lilib"
   DTS:DTSID="{12B9B3A2-7220-4112-844A-E273ACCC0B09}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.3002.106"
+  DTS:LastModifiedProductVersion="15.0.0900.40"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package_DimAirport"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{74F96B80-709E-4E72-AD53-740A9E9677D2}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{A11FA3EA-11FD-4526-A909-0B1DA51B0A29}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -308,7 +308,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -503,7 +503,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FA0E0EFD-2792-447E-92FC-032801FB0595}"
-          SQLTask:SqlStatementSource="WAITFOR DELAY '000:00:10'&#xA;&#xA;EXEC [DimAirport_InsertUnknown];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="EXEC [DimAirport_InsertUnknown];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable

@@ -13,7 +13,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="D:\_Informatyka\_4 Semestr\Hurtownie danych\Zadanie #3\Zadanie3\data\carriers.csv">
+      DTS:ConnectionString="D:\Users\balbina.kawczynska\Downloads\Flights_DW-master\data\carriers.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -22,16 +22,16 @@
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="Code"
-          DTS:DTSID="{DE60532E-96B5-43CE-B74D-FFC115E051E9}"
+          DTS:DTSID="{0FAF7D6B-5933-4AA1-ABCB-E5DC9C6BC01B}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
-          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:ColumnDelimiter="_x000A_"
           DTS:MaximumWidth="100"
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="Description"
-          DTS:DTSID="{CE3E1CB7-BF27-4C13-94E8-1FB8F4CD017B}"
+          DTS:DTSID="{C4D63102-6849-43AF-BB84-F06CACFB8C48}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
